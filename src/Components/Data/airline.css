@@ -1,0 +1,4165 @@
+.airline-sprite {
+    background-image: url('airline.png');
+    /* width: 100px; 
+    height: 100px; 
+    background-repeat: no-repeat;
+    position: relative;  */
+    
+}
+.hidden {
+    display: none; /* Hide the element initially */
+}
+.bg-0B {
+    width: 500px; height: 200px;
+     background-position:  -10px -10px;
+}
+ .bg-0V {
+    width: 500px; height: 200px;
+     background-position:  -10px -230px;
+}
+ .bg-1B {
+    width: 500px; height: 200px;
+     background-position:  -530px -10px;
+}
+ .bg-1D {
+    width: 500px; height: 200px;
+     background-position:  -530px -230px;
+}
+ .bg-1L {
+    width: 500px; height: 200px;
+     background-position:  -10px -450px;
+}
+ .bg-1X {
+    width: 500px; height: 200px;
+     background-position:  -530px -450px;
+}
+ .bg-2 {
+    width: 500px; height: 200px;
+     background-position:  -10px -670px;
+}
+ .bg-2A {
+    width: 500px; height: 200px;
+     background-position:  -530px -670px;
+}
+ .bg-2B {
+    width: 500px; height: 200px;
+     background-position:  -1050px -10px;
+}
+ .bg-2C {
+    width: 500px; height: 200px;
+     background-position:  -1050px -230px;
+}
+ .bg-2D {
+    width: 500px; height: 200px;
+     background-position:  -1050px -450px;
+}
+ .bg-2E {
+    width: 500px; height: 200px;
+     background-position:  -1050px -670px;
+}
+ .bg-2F {
+    width: 500px; height: 200px;
+     background-position:  -10px -890px;
+}
+ .bg-2G {
+    width: 500px; height: 200px;
+     background-position:  -530px -890px;
+}
+ .bg-2I {
+    width: 500px; height: 200px;
+     background-position:  -1050px -890px;
+}
+ .bg-2H {
+    width: 500px; height: 200px;
+     background-position:  -10px -1110px;
+}
+ .bg-2J {
+    width: 500px; height: 200px;
+     background-position:  -530px -1110px;
+}
+ .bg-2K {
+    width: 500px; height: 200px;
+     background-position:  -1050px -1110px;
+}
+ .bg-2M {
+    width: 500px; height: 200px;
+     background-position:  -10px -1330px;
+}
+ .bg-2L {
+    width: 500px; height: 200px;
+     background-position:  -530px -1330px;
+}
+ .bg-2O {
+    width: 500px; height: 200px;
+     background-position:  -1050px -1330px;
+}
+ .bg-2N {
+    width: 500px; height: 200px;
+     background-position:  -1570px -10px;
+}
+ .bg-2P {
+    width: 500px; height: 200px;
+     background-position:  -1570px -230px;
+}
+ .bg-2Q {
+    width: 500px; height: 200px;
+     background-position:  -1570px -450px;
+}
+ .bg-2R {
+    width: 500px; height: 200px;
+     background-position:  -1570px -670px;
+}
+ .bg-2S {
+    width: 500px; height: 200px;
+     background-position:  -1570px -890px;
+}
+ .bg-2T {
+    width: 500px; height: 200px;
+     background-position:  -1570px -1110px;
+}
+ .bg-2V {
+    width: 500px; height: 200px;
+     background-position:  -1570px -1330px;
+}
+ .bg-2W {
+    width: 500px; height: 200px;
+     background-position:  -10px -1550px;
+}
+ .bg-2U {
+    width: 500px; height: 200px;
+     background-position:  -530px -1550px;
+}
+ .bg-2Z {
+    width: 500px; height: 200px;
+     background-position:  -1050px -1550px;
+}
+ .bg-3 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -1550px;
+}
+ .bg-3A {
+    width: 500px; height: 200px;
+     background-position:  -10px -1770px;
+}
+ .bg-3B {
+    width: 500px; height: 200px;
+     background-position:  -530px -1770px;
+}
+ .bg-3C {
+    width: 500px; height: 200px;
+     background-position:  -1050px -1770px;
+}
+ .bg-3D {
+    width: 500px; height: 200px;
+     background-position:  -1570px -1770px;
+}
+ .bg-3E {
+    width: 500px; height: 200px;
+     background-position:  -2090px -10px;
+}
+ .bg-3F {
+    width: 500px; height: 200px;
+     background-position:  -2090px -230px;
+}
+ .bg-3G {
+    width: 500px; height: 200px;
+     background-position:  -2090px -450px;
+}
+ .bg-3J {
+    width: 500px; height: 200px;
+     background-position:  -2090px -670px;
+}
+ .bg-3H {
+    width: 500px; height: 200px;
+     background-position:  -2090px -890px;
+}
+ .bg-3K {
+    width: 500px; height: 200px;
+     background-position:  -2090px -1110px;
+}
+ .bg-3L {
+    width: 500px; height: 200px;
+     background-position:  -2090px -1330px;
+}
+ .bg-3M {
+    width: 500px; height: 200px;
+     background-position:  -2090px -1550px;
+}
+ .bg-3N {
+    width: 500px; height: 200px;
+     background-position:  -2090px -1770px;
+}
+ .bg-3O {
+    width: 500px; height: 200px;
+     background-position:  -10px -1990px;
+}
+ .bg-3P {
+    width: 500px; height: 200px;
+     background-position:  -530px -1990px;
+}
+ .bg-3Q {
+    width: 500px; height: 200px;
+     background-position:  -1050px -1990px;
+}
+ .bg-3R {
+    width: 500px; height: 200px;
+     background-position:  -1570px -1990px;
+}
+ .bg-3S {
+    width: 500px; height: 200px;
+     background-position:  -2090px -1990px;
+}
+ .bg-3T {
+    width: 500px; height: 200px;
+     background-position:  -10px -2210px;
+}
+ .bg-3U {
+    width: 500px; height: 200px;
+     background-position:  -530px -2210px;
+}
+ .bg-3V {
+    width: 500px; height: 200px;
+     background-position:  -1050px -2210px;
+}
+ .bg-3X {
+    width: 500px; height: 200px;
+     background-position:  -1570px -2210px;
+}
+ .bg-3Y {
+    width: 500px; height: 200px;
+     background-position:  -2090px -2210px;
+}
+ .bg-3Z {
+    width: 500px; height: 200px;
+     background-position:  -2610px -10px;
+}
+ .bg-4A {
+    width: 500px; height: 200px;
+     background-position:  -2610px -230px;
+}
+ .bg-4B {
+    width: 500px; height: 200px;
+     background-position:  -2610px -450px;
+}
+ .bg-4C {
+    width: 500px; height: 200px;
+     background-position:  -2610px -670px;
+}
+ .bg-4D {
+    width: 500px; height: 200px;
+     background-position:  -2610px -890px;
+}
+ .bg-4E {
+    width: 500px; height: 200px;
+     background-position:  -2610px -1110px;
+}
+ .bg-4F {
+    width: 500px; height: 200px;
+     background-position:  -2610px -1330px;
+}
+ .bg-4G {
+    width: 500px; height: 200px;
+     background-position:  -2610px -1550px;
+}
+ .bg-4H {
+    width: 500px; height: 200px;
+     background-position:  -2610px -1770px;
+}
+ .bg-4I {
+    width: 500px; height: 200px;
+     background-position:  -2610px -1990px;
+}
+ .bg-4J {
+    width: 500px; height: 200px;
+     background-position:  -2610px -2210px;
+}
+ .bg-4K {
+    width: 500px; height: 200px;
+     background-position:  -10px -2430px;
+}
+ .bg-4L {
+    width: 500px; height: 200px;
+     background-position:  -530px -2430px;
+}
+ .bg-4M {
+    width: 500px; height: 200px;
+     background-position:  -1050px -2430px;
+}
+ .bg-4N {
+    width: 500px; height: 200px;
+     background-position:  -1570px -2430px;
+}
+ .bg-4O {
+    width: 500px; height: 200px;
+     background-position:  -2090px -2430px;
+}
+ .bg-4Q {
+    width: 500px; height: 200px;
+     background-position:  -2610px -2430px;
+}
+ .bg-4R {
+    width: 500px; height: 200px;
+     background-position:  -10px -2650px;
+}
+ .bg-4P {
+    width: 500px; height: 200px;
+     background-position:  -530px -2650px;
+}
+ .bg-4S {
+    width: 500px; height: 200px;
+     background-position:  -1050px -2650px;
+}
+ .bg-4T {
+    width: 500px; height: 200px;
+     background-position:  -1570px -2650px;
+}
+ .bg-4V {
+    width: 500px; height: 200px;
+     background-position:  -2090px -2650px;
+}
+ .bg-4U {
+    width: 500px; height: 200px;
+     background-position:  -2610px -2650px;
+}
+ .bg-4W {
+    width: 500px; height: 200px;
+     background-position:  -10px -2870px;
+}
+ .bg-4Y {
+    width: 500px; height: 200px;
+     background-position:  -530px -2870px;
+}
+ .bg-4Z {
+    width: 500px; height: 200px;
+     background-position:  -1050px -2870px;
+}
+ .bg-5A {
+    width: 500px; height: 200px;
+     background-position:  -1570px -2870px;
+}
+ .bg-5C {
+    width: 500px; height: 200px;
+     background-position:  -2090px -2870px;
+}
+ .bg-5B {
+    width: 500px; height: 200px;
+     background-position:  -2610px -2870px;
+}
+ .bg-5D {
+    width: 500px; height: 200px;
+     background-position:  -3130px -10px;
+}
+ .bg-5E {
+    width: 500px; height: 200px;
+     background-position:  -3130px -230px;
+}
+ .bg-5F {
+    width: 500px; height: 200px;
+     background-position:  -3130px -450px;
+}
+ .bg-5H {
+    width: 500px; height: 200px;
+     background-position:  -3130px -670px;
+}
+ .bg-5J {
+    width: 500px; height: 200px;
+     background-position:  -3130px -890px;
+}
+ .bg-5L {
+    width: 500px; height: 200px;
+     background-position:  -3130px -1110px;
+}
+ .bg-5K {
+    width: 500px; height: 200px;
+     background-position:  -3130px -1330px;
+}
+ .bg-5M {
+    width: 500px; height: 200px;
+     background-position:  -3130px -1550px;
+}
+ .bg-5N {
+    width: 500px; height: 200px;
+     background-position:  -3130px -1770px;
+}
+ .bg-5O {
+    width: 500px; height: 200px;
+     background-position:  -3130px -1990px;
+}
+ .bg-5P {
+    width: 500px; height: 200px;
+     background-position:  -3130px -2210px;
+}
+ .bg-5Q {
+    width: 500px; height: 200px;
+     background-position:  -3130px -2430px;
+}
+ .bg-5R {
+    width: 500px; height: 200px;
+     background-position:  -3130px -2650px;
+}
+ .bg-5S {
+    width: 500px; height: 200px;
+     background-position:  -3130px -2870px;
+}
+ .bg-5T {
+    width: 500px; height: 200px;
+     background-position:  -10px -3090px;
+}
+ .bg-5U {
+    width: 500px; height: 200px;
+     background-position:  -530px -3090px;
+}
+ .bg-5V {
+    width: 500px; height: 200px;
+     background-position:  -1050px -3090px;
+}
+ .bg-5W {
+    width: 500px; height: 200px;
+     background-position:  -1570px -3090px;
+}
+ .bg-5X {
+    width: 500px; height: 200px;
+     background-position:  -2090px -3090px;
+}
+ .bg-5Y {
+    width: 500px; height: 200px;
+     background-position:  -2610px -3090px;
+}
+ .bg-5Z {
+    width: 500px; height: 200px;
+     background-position:  -3130px -3090px;
+}
+ .bg-6A {
+    width: 500px; height: 200px;
+     background-position:  -10px -3310px;
+}
+ .bg-6B {
+    width: 500px; height: 200px;
+     background-position:  -530px -3310px;
+}
+ .bg-6C {
+    width: 500px; height: 200px;
+     background-position:  -1050px -3310px;
+}
+ .bg-6D {
+    width: 500px; height: 200px;
+     background-position:  -1570px -3310px;
+}
+ .bg-6E {
+    width: 500px; height: 200px;
+     background-position:  -2090px -3310px;
+}
+ .bg-6F {
+    width: 500px; height: 200px;
+     background-position:  -2610px -3310px;
+}
+ .bg-6G {
+    width: 500px; height: 200px;
+     background-position:  -3130px -3310px;
+}
+ .bg-6H {
+    width: 500px; height: 200px;
+     background-position:  -3650px -10px;
+}
+ .bg-6I {
+    width: 500px; height: 200px;
+     background-position:  -3650px -230px;
+}
+ .bg-6J {
+    width: 500px; height: 200px;
+     background-position:  -3650px -450px;
+}
+ .bg-6K {
+    width: 500px; height: 200px;
+     background-position:  -3650px -670px;
+}
+ .bg-6L {
+    width: 500px; height: 200px;
+     background-position:  -3650px -890px;
+}
+ .bg-6M {
+    width: 500px; height: 200px;
+     background-position:  -3650px -1110px;
+}
+ .bg-6N {
+    width: 500px; height: 200px;
+     background-position:  -3650px -1330px;
+}
+ .bg-6O {
+    width: 500px; height: 200px;
+     background-position:  -3650px -1550px;
+}
+ .bg-6P {
+    width: 500px; height: 200px;
+     background-position:  -3650px -1770px;
+}
+ .bg-6Q {
+    width: 500px; height: 200px;
+     background-position:  -3650px -1990px;
+}
+ .bg-6R {
+    width: 500px; height: 200px;
+     background-position:  -3650px -2210px;
+}
+ .bg-6S {
+    width: 500px; height: 200px;
+     background-position:  -3650px -2430px;
+}
+ .bg-6T {
+    width: 500px; height: 200px;
+     background-position:  -3650px -2650px;
+}
+ .bg-6U {
+    width: 500px; height: 200px;
+     background-position:  -3650px -2870px;
+}
+ .bg-6V {
+    width: 500px; height: 200px;
+     background-position:  -3650px -3090px;
+}
+ .bg-6W {
+    width: 500px; height: 200px;
+     background-position:  -3650px -3310px;
+}
+ .bg-6Y {
+    width: 500px; height: 200px;
+     background-position:  -10px -3530px;
+}
+ .bg-7A {
+    width: 500px; height: 200px;
+     background-position:  -530px -3530px;
+}
+ .bg-7B {
+    width: 500px; height: 200px;
+     background-position:  -1050px -3530px;
+}
+ .bg-7C {
+    width: 500px; height: 200px;
+     background-position:  -1570px -3530px;
+}
+ .bg-7D {
+    width: 500px; height: 200px;
+     background-position:  -2090px -3530px;
+}
+ .bg-7E {
+    width: 500px; height: 200px;
+     background-position:  -2610px -3530px;
+}
+ .bg-7F {
+    width: 500px; height: 200px;
+     background-position:  -3130px -3530px;
+}
+ .bg-7G {
+    width: 500px; height: 200px;
+     background-position:  -3650px -3530px;
+}
+ .bg-7H {
+    width: 500px; height: 200px;
+     background-position:  -10px -3750px;
+}
+ .bg-7I {
+    width: 500px; height: 200px;
+     background-position:  -530px -3750px;
+}
+ .bg-7J {
+    width: 500px; height: 200px;
+     background-position:  -1050px -3750px;
+}
+ .bg-7K {
+    width: 500px; height: 200px;
+     background-position:  -1570px -3750px;
+}
+ .bg-7L {
+    width: 500px; height: 200px;
+     background-position:  -2090px -3750px;
+}
+ .bg-7M {
+    width: 500px; height: 200px;
+     background-position:  -2610px -3750px;
+}
+ .bg-7N {
+    width: 500px; height: 200px;
+     background-position:  -3130px -3750px;
+}
+ .bg-7P {
+    width: 500px; height: 200px;
+     background-position:  -3650px -3750px;
+}
+ .bg-7Q {
+    width: 500px; height: 200px;
+     background-position:  -4170px -10px;
+}
+ .bg-7R {
+    width: 500px; height: 200px;
+     background-position:  -4170px -230px;
+}
+ .bg-7S {
+    width: 500px; height: 200px;
+     background-position:  -4170px -450px;
+}
+ .bg-7T {
+    width: 500px; height: 200px;
+     background-position:  -4170px -670px;
+}
+ .bg-7U {
+    width: 500px; height: 200px;
+     background-position:  -4170px -890px;
+}
+ .bg-7V {
+    width: 500px; height: 200px;
+     background-position:  -4170px -1110px;
+}
+ .bg-7W {
+    width: 500px; height: 200px;
+     background-position:  -4170px -1330px;
+}
+ .bg-7Y {
+    width: 500px; height: 200px;
+     background-position:  -4170px -1550px;
+}
+ .bg-7Z {
+    width: 500px; height: 200px;
+     background-position:  -4170px -1770px;
+}
+ .bg-8A {
+    width: 500px; height: 200px;
+     background-position:  -4170px -1990px;
+}
+ .bg-8B {
+    width: 500px; height: 200px;
+     background-position:  -4170px -2210px;
+}
+ .bg-8C {
+    width: 500px; height: 200px;
+     background-position:  -4170px -2430px;
+}
+ .bg-8F {
+    width: 500px; height: 200px;
+     background-position:  -4170px -2650px;
+}
+ .bg-8G {
+    width: 500px; height: 200px;
+     background-position:  -4170px -2870px;
+}
+ .bg-8H {
+    width: 500px; height: 200px;
+     background-position:  -4170px -3090px;
+}
+ .bg-8I {
+    width: 500px; height: 200px;
+     background-position:  -4170px -3310px;
+}
+ .bg-8J {
+    width: 500px; height: 200px;
+     background-position:  -4170px -3530px;
+}
+ .bg-8K {
+    width: 500px; height: 200px;
+     background-position:  -4170px -3750px;
+}
+ .bg-8L {
+    width: 500px; height: 200px;
+     background-position:  -10px -3970px;
+}
+ .bg-8M {
+    width: 500px; height: 200px;
+     background-position:  -530px -3970px;
+}
+ .bg-8P {
+    width: 500px; height: 200px;
+     background-position:  -1050px -3970px;
+}
+ .bg-8Q {
+    width: 500px; height: 200px;
+     background-position:  -1570px -3970px;
+}
+ .bg-8S {
+    width: 500px; height: 200px;
+     background-position:  -2090px -3970px;
+}
+ .bg-8T {
+    width: 500px; height: 200px;
+     background-position:  -2610px -3970px;
+}
+ .bg-8U {
+    width: 500px; height: 200px;
+     background-position:  -3130px -3970px;
+}
+ .bg-8Y {
+    width: 500px; height: 200px;
+     background-position:  -3650px -3970px;
+}
+ .bg-9 {
+    width: 500px; height: 200px;
+     background-position:  -4170px -3970px;
+}
+ .bg-9A {
+    width: 500px; height: 200px;
+     background-position:  -10px -4190px;
+}
+ .bg-9B {
+    width: 500px; height: 200px;
+     background-position:  -530px -4190px;
+}
+ .bg-9C {
+    width: 500px; height: 200px;
+     background-position:  -1050px -4190px;
+}
+ .bg-9D {
+    width: 500px; height: 200px;
+     background-position:  -1570px -4190px;
+}
+ .bg-9E {
+    width: 500px; height: 200px;
+     background-position:  -2090px -4190px;
+}
+ .bg-9F {
+    width: 500px; height: 200px;
+     background-position:  -2610px -4190px;
+}
+ .bg-9G {
+    width: 500px; height: 200px;
+     background-position:  -3130px -4190px;
+}
+ .bg-9H {
+    width: 500px; height: 200px;
+     background-position:  -3650px -4190px;
+}
+ .bg-9J {
+    width: 500px; height: 200px;
+     background-position:  -4170px -4190px;
+}
+ .bg-9K {
+    width: 500px; height: 200px;
+     background-position:  -10px -4410px;
+}
+ .bg-9L {
+    width: 500px; height: 200px;
+     background-position:  -530px -4410px;
+}
+ .bg-9M {
+    width: 500px; height: 200px;
+     background-position:  -1050px -4410px;
+}
+ .bg-9N {
+    width: 500px; height: 200px;
+     background-position:  -1570px -4410px;
+}
+ .bg-9P {
+    width: 500px; height: 200px;
+     background-position:  -2090px -4410px;
+}
+ .bg-9Q {
+    width: 500px; height: 200px;
+     background-position:  -2610px -4410px;
+}
+ .bg-9R {
+    width: 500px; height: 200px;
+     background-position:  -3130px -4410px;
+}
+ .bg-9S {
+    width: 500px; height: 200px;
+     background-position:  -3650px -4410px;
+}
+ .bg-9T {
+    width: 500px; height: 200px;
+     background-position:  -4170px -4410px;
+}
+ .bg-9U {
+    width: 500px; height: 200px;
+     background-position:  -4690px -10px;
+}
+ .bg-9V {
+    width: 500px; height: 200px;
+     background-position:  -4690px -230px;
+}
+ .bg-9W {
+    width: 500px; height: 200px;
+     background-position:  -4690px -450px;
+}
+ .bg-9X {
+    width: 500px; height: 200px;
+     background-position:  -4690px -670px;
+}
+ .bg-9Y {
+    width: 500px; height: 200px;
+     background-position:  -4690px -890px;
+}
+ .bg-43 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -1110px;
+}
+ .bg-A0 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -1330px;
+}
+ .bg-A2 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -1550px;
+}
+ .bg-A3 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -1770px;
+}
+ .bg-A4 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -1990px;
+}
+ .bg-A5 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -2210px;
+}
+ .bg-A6 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -2430px;
+}
+ .bg-A7 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -2650px;
+}
+ .bg-A8 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -2870px;
+}
+ .bg-A9 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -3090px;
+}
+ .bg-AA {
+    width: 500px; height: 200px;
+     background-position:  -4690px -3310px;
+}
+ .bg-AB {
+    width: 500px; height: 200px;
+     background-position:  -4690px -3530px;
+}
+ .bg-AC {
+    width: 500px; height: 200px;
+     background-position:  -4690px -3750px;
+}
+ .bg-AD {
+    width: 500px; height: 200px;
+     background-position:  -4690px -3970px;
+}
+ .bg-AE {
+    width: 500px; height: 200px;
+     background-position:  -4690px -4190px;
+}
+ .bg-AF {
+    width: 500px; height: 200px;
+     background-position:  -4690px -4410px;
+}
+ .bg-AG {
+    width: 500px; height: 200px;
+     background-position:  -10px -4630px;
+}
+ .bg-AH {
+    width: 500px; height: 200px;
+     background-position:  -530px -4630px;
+}
+ .bg-AI {
+    width: 500px; height: 200px;
+     background-position:  -1050px -4630px;
+}
+ .bg-air {
+    width: 500px; height: 200px;
+     background-position:  -1570px -4630px;
+}
+ .bg-AJ {
+    width: 500px; height: 200px;
+     background-position:  -2090px -4630px;
+}
+ .bg-AK {
+    width: 500px; height: 200px;
+     background-position:  -2610px -4630px;
+}
+ .bg-AM {
+    width: 500px; height: 200px;
+     background-position:  -3130px -4630px;
+}
+ .bg-AN {
+    width: 500px; height: 200px;
+     background-position:  -3650px -4630px;
+}
+ .bg-AO {
+    width: 500px; height: 200px;
+     background-position:  -4170px -4630px;
+}
+ .bg-AP {
+    width: 500px; height: 200px;
+     background-position:  -4690px -4630px;
+}
+ .bg-AQ {
+    width: 500px; height: 200px;
+     background-position:  -10px -4850px;
+}
+ .bg-AR {
+    width: 500px; height: 200px;
+     background-position:  -530px -4850px;
+}
+ .bg-AS {
+    width: 500px; height: 200px;
+     background-position:  -1050px -4850px;
+}
+ .bg-AT {
+    width: 500px; height: 200px;
+     background-position:  -1570px -4850px;
+}
+ .bg-AU {
+    width: 500px; height: 200px;
+     background-position:  -2090px -4850px;
+}
+ .bg-AV {
+    width: 500px; height: 200px;
+     background-position:  -2610px -4850px;
+}
+ .bg-AW {
+    width: 500px; height: 200px;
+     background-position:  -3130px -4850px;
+}
+ .bg-AX {
+    width: 500px; height: 200px;
+     background-position:  -3650px -4850px;
+}
+ .bg-AY {
+    width: 500px; height: 200px;
+     background-position:  -4170px -4850px;
+}
+ .bg-AZ {
+    width: 500px; height: 200px;
+     background-position:  -4690px -4850px;
+}
+ .bg-B0 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -10px;
+}
+ .bg-B2 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -230px;
+}
+ .bg-B3 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -450px;
+}
+ .bg-B4 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -670px;
+}
+ .bg-B5 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -890px;
+}
+ .bg-B6 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -1110px;
+}
+ .bg-B7 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -1330px;
+}
+ .bg-B8 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -1550px;
+}
+ .bg-B9 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -1770px;
+}
+ .bg-BA {
+    width: 500px; height: 200px;
+     background-position:  -5210px -1990px;
+}
+ .bg-BB {
+    width: 500px; height: 200px;
+     background-position:  -5210px -2210px;
+}
+ .bg-BC {
+    width: 500px; height: 200px;
+     background-position:  -5210px -2430px;
+}
+ .bg-BD {
+    width: 500px; height: 200px;
+     background-position:  -5210px -2650px;
+}
+ .bg-BE {
+    width: 500px; height: 200px;
+     background-position:  -5210px -2870px;
+}
+ .bg-BF {
+    width: 500px; height: 200px;
+     background-position:  -5210px -3090px;
+}
+ .bg-BG {
+    width: 500px; height: 200px;
+     background-position:  -5210px -3310px;
+}
+ .bg-BH {
+    width: 500px; height: 200px;
+     background-position:  -5210px -3530px;
+}
+ .bg-BI {
+    width: 500px; height: 200px;
+     background-position:  -5210px -3750px;
+}
+ .bg-BJ {
+    width: 500px; height: 200px;
+     background-position:  -5210px -3970px;
+}
+ .bg-BK {
+    width: 500px; height: 200px;
+     background-position:  -5210px -4190px;
+}
+ .bg-BL {
+    width: 500px; height: 200px;
+     background-position:  -5210px -4410px;
+}
+ .bg-BM {
+    width: 500px; height: 200px;
+     background-position:  -5210px -4630px;
+}
+ .bg-BN {
+    width: 500px; height: 200px;
+     background-position:  -5210px -4850px;
+}
+ .bg-BO {
+    width: 500px; height: 200px;
+     background-position:  -10px -5070px;
+}
+ .bg-BP {
+    width: 500px; height: 200px;
+     background-position:  -530px -5070px;
+}
+ .bg-BQ {
+    width: 500px; height: 200px;
+     background-position:  -1050px -5070px;
+}
+ .bg-BR {
+    width: 500px; height: 200px;
+     background-position:  -1570px -5070px;
+}
+ .bg-BS {
+    width: 500px; height: 200px;
+     background-position:  -2090px -5070px;
+}
+ .bg-BT {
+    width: 500px; height: 200px;
+     background-position:  -2610px -5070px;
+}
+ .bg-BU {
+    width: 500px; height: 200px;
+     background-position:  -3130px -5070px;
+}
+ .bg-BV {
+    width: 500px; height: 200px;
+     background-position:  -3650px -5070px;
+}
+ .bg-BW {
+    width: 500px; height: 200px;
+     background-position:  -4170px -5070px;
+}
+ .bg-BX {
+    width: 500px; height: 200px;
+     background-position:  -4690px -5070px;
+}
+ .bg-BY {
+    width: 500px; height: 200px;
+     background-position:  -5210px -5070px;
+}
+ .bg-BZ {
+    width: 500px; height: 200px;
+     background-position:  -10px -5290px;
+}
+ .bg-C0 {
+    width: 500px; height: 200px;
+     background-position:  -530px -5290px;
+}
+ .bg-C2 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -5290px;
+}
+ .bg-C3 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -5290px;
+}
+ .bg-C4 {
+    width: 500px; height: 200px;
+     background-position:  -2090px -5290px;
+}
+ .bg-C5 {
+    width: 500px; height: 200px;
+     background-position:  -2610px -5290px;
+}
+ .bg-C6 {
+    width: 500px; height: 200px;
+     background-position:  -3130px -5290px;
+}
+ .bg-C7 {
+    width: 500px; height: 200px;
+     background-position:  -3650px -5290px;
+}
+ .bg-C8 {
+    width: 500px; height: 200px;
+     background-position:  -4170px -5290px;
+}
+ .bg-CA {
+    width: 500px; height: 200px;
+     background-position:  -4690px -5290px;
+}
+ .bg-CB {
+    width: 500px; height: 200px;
+     background-position:  -5210px -5290px;
+}
+ .bg-CC {
+    width: 500px; height: 200px;
+     background-position:  -10px -5510px;
+}
+ .bg-CD {
+    width: 500px; height: 200px;
+     background-position:  -530px -5510px;
+}
+ .bg-CE {
+    width: 500px; height: 200px;
+     background-position:  -1050px -5510px;
+}
+ .bg-CF {
+    width: 500px; height: 200px;
+     background-position:  -1570px -5510px;
+}
+ .bg-CG {
+    width: 500px; height: 200px;
+     background-position:  -2090px -5510px;
+}
+ .bg-CH {
+    width: 500px; height: 200px;
+     background-position:  -2610px -5510px;
+}
+ .bg-CI {
+    width: 500px; height: 200px;
+     background-position:  -3130px -5510px;
+}
+ .bg-CJ {
+    width: 500px; height: 200px;
+     background-position:  -3650px -5510px;
+}
+ .bg-CK {
+    width: 500px; height: 200px;
+     background-position:  -4170px -5510px;
+}
+ .bg-CL {
+    width: 500px; height: 200px;
+     background-position:  -4690px -5510px;
+}
+ .bg-CM {
+    width: 500px; height: 200px;
+     background-position:  -5210px -5510px;
+}
+ .bg-CN {
+    width: 500px; height: 200px;
+     background-position:  -5730px -10px;
+}
+ .bg-CO {
+    width: 500px; height: 200px;
+     background-position:  -5730px -230px;
+}
+ .bg-CP {
+    width: 500px; height: 200px;
+     background-position:  -5730px -450px;
+}
+ .bg-CQ {
+    width: 500px; height: 200px;
+     background-position:  -5730px -670px;
+}
+ .bg-CS {
+    width: 500px; height: 200px;
+     background-position:  -5730px -890px;
+}
+ .bg-CT {
+    width: 500px; height: 200px;
+     background-position:  -5730px -1110px;
+}
+ .bg-CU {
+    width: 500px; height: 200px;
+     background-position:  -5730px -1330px;
+}
+ .bg-CV {
+    width: 500px; height: 200px;
+     background-position:  -5730px -1550px;
+}
+ .bg-CW {
+    width: 500px; height: 200px;
+     background-position:  -5730px -1770px;
+}
+ .bg-CX {
+    width: 500px; height: 200px;
+     background-position:  -5730px -1990px;
+}
+ .bg-CY {
+    width: 500px; height: 200px;
+     background-position:  -5730px -2210px;
+}
+ .bg-CZ {
+    width: 500px; height: 200px;
+     background-position:  -5730px -2430px;
+}
+ .bg-D1 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -2650px;
+}
+ .bg-D2 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -2870px;
+}
+ .bg-D3 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -3090px;
+}
+ .bg-D4 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -3310px;
+}
+ .bg-D5 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -3530px;
+}
+ .bg-D6 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -3750px;
+}
+ .bg-D7 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -3970px;
+}
+ .bg-D8 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -4190px;
+}
+ .bg-D9 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -4410px;
+}
+ .bg-DA {
+    width: 500px; height: 200px;
+     background-position:  -5730px -4630px;
+}
+ .bg-DB {
+    width: 500px; height: 200px;
+     background-position:  -5730px -4850px;
+}
+ .bg-DC {
+    width: 500px; height: 200px;
+     background-position:  -5730px -5070px;
+}
+ .bg-DD {
+    width: 500px; height: 200px;
+     background-position:  -5730px -5290px;
+}
+ .bg-DE {
+    width: 500px; height: 200px;
+     background-position:  -5730px -5510px;
+}
+ .bg-DF {
+    width: 500px; height: 200px;
+     background-position:  -10px -5730px;
+}
+ .bg-DG {
+    width: 500px; height: 200px;
+     background-position:  -530px -5730px;
+}
+ .bg-DH {
+    width: 500px; height: 200px;
+     background-position:  -1050px -5730px;
+}
+ .bg-DI {
+    width: 500px; height: 200px;
+     background-position:  -1570px -5730px;
+}
+ .bg-DJ {
+    width: 500px; height: 200px;
+     background-position:  -2090px -5730px;
+}
+ .bg-DK {
+    width: 500px; height: 200px;
+     background-position:  -2610px -5730px;
+}
+ .bg-DL {
+    width: 500px; height: 200px;
+     background-position:  -3130px -5730px;
+}
+ .bg-DM {
+    width: 500px; height: 200px;
+     background-position:  -3650px -5730px;
+}
+ .bg-DN {
+    width: 500px; height: 200px;
+     background-position:  -4170px -5730px;
+}
+ .bg-DO {
+    width: 500px; height: 200px;
+     background-position:  -4690px -5730px;
+}
+ .bg-download {
+    width: 500px; height: 200px;
+     background-position:  -5210px -5730px;
+}
+ .bg-DP {
+    width: 500px; height: 200px;
+     background-position:  -5730px -5730px;
+}
+ .bg-DQ {
+    width: 500px; height: 200px;
+     background-position:  -10px -5950px;
+}
+ .bg-DR {
+    width: 500px; height: 200px;
+     background-position:  -530px -5950px;
+}
+ .bg-DS {
+    width: 500px; height: 200px;
+     background-position:  -1050px -5950px;
+}
+ .bg-DT {
+    width: 500px; height: 200px;
+     background-position:  -1570px -5950px;
+}
+ .bg-DU {
+    width: 500px; height: 200px;
+     background-position:  -2090px -5950px;
+}
+ .bg-DV {
+    width: 500px; height: 200px;
+     background-position:  -2610px -5950px;
+}
+ .bg-DW {
+    width: 500px; height: 200px;
+     background-position:  -3130px -5950px;
+}
+ .bg-DX {
+    width: 500px; height: 200px;
+     background-position:  -3650px -5950px;
+}
+ .bg-DY {
+    width: 500px; height: 200px;
+     background-position:  -4170px -5950px;
+}
+ .bg-DZ {
+    width: 500px; height: 200px;
+     background-position:  -4690px -5950px;
+}
+ .bg-E3 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -5950px;
+}
+ .bg-E4 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -5950px;
+}
+ .bg-E5 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -10px;
+}
+ .bg-E6 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -230px;
+}
+ .bg-E8 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -450px;
+}
+ .bg-E9 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -670px;
+}
+ .bg-EA {
+    width: 500px; height: 200px;
+     background-position:  -6250px -890px;
+}
+ .bg-EB {
+    width: 500px; height: 200px;
+     background-position:  -6250px -1110px;
+}
+ .bg-EC {
+    width: 500px; height: 200px;
+     background-position:  -6250px -1330px;
+}
+ .bg-ED {
+    width: 500px; height: 200px;
+     background-position:  -6250px -1550px;
+}
+ .bg-EE {
+    width: 500px; height: 200px;
+     background-position:  -6250px -1770px;
+}
+ .bg-EG {
+    width: 500px; height: 200px;
+     background-position:  -6250px -1990px;
+}
+ .bg-EH {
+    width: 500px; height: 200px;
+     background-position:  -6250px -2210px;
+}
+ .bg-EI {
+    width: 500px; height: 200px;
+     background-position:  -6250px -2430px;
+}
+ .bg-EJ {
+    width: 500px; height: 200px;
+     background-position:  -6250px -2650px;
+}
+ .bg-EK {
+    width: 500px; height: 200px;
+     background-position:  -6250px -2870px;
+}
+ .bg-EL {
+    width: 500px; height: 200px;
+     background-position:  -6250px -3090px;
+}
+ .bg-EM {
+    width: 500px; height: 200px;
+     background-position:  -6250px -3310px;
+}
+ .bg-EN {
+    width: 500px; height: 200px;
+     background-position:  -6250px -3530px;
+}
+ .bg-EO {
+    width: 500px; height: 200px;
+     background-position:  -6250px -3750px;
+}
+ .bg-EP {
+    width: 500px; height: 200px;
+     background-position:  -6250px -3970px;
+}
+ .bg-EQ {
+    width: 500px; height: 200px;
+     background-position:  -6250px -4190px;
+}
+ .bg-ER {
+    width: 500px; height: 200px;
+     background-position:  -6250px -4410px;
+}
+ .bg-ET {
+    width: 500px; height: 200px;
+     background-position:  -6250px -4630px;
+}
+ .bg-EU {
+    width: 500px; height: 200px;
+     background-position:  -6250px -4850px;
+}
+ .bg-EV {
+    width: 500px; height: 200px;
+     background-position:  -6250px -5070px;
+}
+ .bg-EW {
+    width: 500px; height: 200px;
+     background-position:  -6250px -5290px;
+}
+ .bg-EX {
+    width: 500px; height: 200px;
+     background-position:  -6250px -5510px;
+}
+ .bg-EY {
+    width: 500px; height: 200px;
+     background-position:  -6250px -5730px;
+}
+ .bg-EZ {
+    width: 500px; height: 200px;
+     background-position:  -6250px -5950px;
+}
+ .bg-F2 {
+    width: 500px; height: 200px;
+     background-position:  -10px -6170px;
+}
+ .bg-F3 {
+    width: 500px; height: 200px;
+     background-position:  -530px -6170px;
+}
+ .bg-F4 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -6170px;
+}
+ .bg-F5 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -6170px;
+}
+ .bg-F6 {
+    width: 500px; height: 200px;
+     background-position:  -2090px -6170px;
+}
+ .bg-F7 {
+    width: 500px; height: 200px;
+     background-position:  -2610px -6170px;
+}
+ .bg-F8 {
+    width: 500px; height: 200px;
+     background-position:  -3130px -6170px;
+}
+ .bg-F9 {
+    width: 500px; height: 200px;
+     background-position:  -3650px -6170px;
+}
+ .bg-FA {
+    width: 500px; height: 200px;
+     background-position:  -4170px -6170px;
+}
+ .bg-FB {
+    width: 500px; height: 200px;
+     background-position:  -4690px -6170px;
+}
+ .bg-FC {
+    width: 500px; height: 200px;
+     background-position:  -5210px -6170px;
+}
+ .bg-FD {
+    width: 500px; height: 200px;
+     background-position:  -5730px -6170px;
+}
+ .bg-FE {
+    width: 500px; height: 200px;
+     background-position:  -6250px -6170px;
+}
+ .bg-FF {
+    width: 500px; height: 200px;
+     background-position:  -10px -6390px;
+}
+ .bg-FG {
+    width: 500px; height: 200px;
+     background-position:  -530px -6390px;
+}
+ .bg-FH {
+    width: 500px; height: 200px;
+     background-position:  -1050px -6390px;
+}
+ .bg-FI {
+    width: 500px; height: 200px;
+     background-position:  -1570px -6390px;
+}
+ .bg-FJ {
+    width: 500px; height: 200px;
+     background-position:  -2090px -6390px;
+}
+ .bg-FK {
+    width: 500px; height: 200px;
+     background-position:  -2610px -6390px;
+}
+ .bg-FL {
+    width: 500px; height: 200px;
+     background-position:  -3130px -6390px;
+}
+ .bg-FM {
+    width: 500px; height: 200px;
+     background-position:  -3650px -6390px;
+}
+ .bg-FN {
+    width: 500px; height: 200px;
+     background-position:  -4170px -6390px;
+}
+ .bg-FO {
+    width: 500px; height: 200px;
+     background-position:  -4690px -6390px;
+}
+ .bg-FP {
+    width: 500px; height: 200px;
+     background-position:  -5210px -6390px;
+}
+ .bg-FQ {
+    width: 500px; height: 200px;
+     background-position:  -5730px -6390px;
+}
+ .bg-FR {
+    width: 500px; height: 200px;
+     background-position:  -6250px -6390px;
+}
+ .bg-FS {
+    width: 500px; height: 200px;
+     background-position:  -6770px -10px;
+}
+ .bg-FT {
+    width: 500px; height: 200px;
+     background-position:  -6770px -230px;
+}
+ .bg-FU {
+    width: 500px; height: 200px;
+     background-position:  -6770px -450px;
+}
+ .bg-FV {
+    width: 500px; height: 200px;
+     background-position:  -6770px -670px;
+}
+ .bg-FW {
+    width: 500px; height: 200px;
+     background-position:  -6770px -890px;
+}
+ .bg-FX {
+    width: 500px; height: 200px;
+     background-position:  -6770px -1110px;
+}
+ .bg-FY {
+    width: 500px; height: 200px;
+     background-position:  -6770px -1330px;
+}
+ .bg-FZ {
+    width: 500px; height: 200px;
+     background-position:  -6770px -1550px;
+}
+ .bg-G1 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -1770px;
+}
+ .bg-G3 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -1990px;
+}
+ .bg-G4 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -2210px;
+}
+ .bg-G5 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -2430px;
+}
+ .bg-G6 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -2650px;
+}
+ .bg-G7 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -2870px;
+}
+ .bg-G8 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -3090px;
+}
+ .bg-G9 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -3310px;
+}
+ .bg-GA {
+    width: 500px; height: 200px;
+     background-position:  -6770px -3530px;
+}
+ .bg-GB {
+    width: 500px; height: 200px;
+     background-position:  -6770px -3750px;
+}
+ .bg-GC {
+    width: 500px; height: 200px;
+     background-position:  -6770px -3970px;
+}
+ .bg-GD {
+    width: 500px; height: 200px;
+     background-position:  -6770px -4190px;
+}
+ .bg-GE {
+    width: 500px; height: 200px;
+     background-position:  -6770px -4410px;
+}
+ .bg-GF {
+    width: 500px; height: 200px;
+     background-position:  -6770px -4630px;
+}
+ .bg-GH {
+    width: 500px; height: 200px;
+     background-position:  -6770px -4850px;
+}
+ .bg-GI {
+    width: 500px; height: 200px;
+     background-position:  -6770px -5070px;
+}
+ .bg-GJ {
+    width: 500px; height: 200px;
+     background-position:  -6770px -5290px;
+}
+ .bg-GK {
+    width: 500px; height: 200px;
+     background-position:  -6770px -5510px;
+}
+ .bg-GL {
+    width: 500px; height: 200px;
+     background-position:  -6770px -5730px;
+}
+ .bg-GM {
+    width: 500px; height: 200px;
+     background-position:  -6770px -5950px;
+}
+ .bg-GN {
+    width: 500px; height: 200px;
+     background-position:  -6770px -6170px;
+}
+ .bg-GP {
+    width: 500px; height: 200px;
+     background-position:  -6770px -6390px;
+}
+ .bg-GQ {
+    width: 500px; height: 200px;
+     background-position:  -10px -6610px;
+}
+ .bg-GR {
+    width: 500px; height: 200px;
+     background-position:  -530px -6610px;
+}
+ .bg-GS {
+    width: 500px; height: 200px;
+     background-position:  -1050px -6610px;
+}
+ .bg-GT {
+    width: 500px; height: 200px;
+     background-position:  -1570px -6610px;
+}
+ .bg-GU {
+    width: 500px; height: 200px;
+     background-position:  -2090px -6610px;
+}
+ .bg-GV {
+    width: 500px; height: 200px;
+     background-position:  -2610px -6610px;
+}
+ .bg-GW {
+    width: 500px; height: 200px;
+     background-position:  -3130px -6610px;
+}
+ .bg-GX {
+    width: 500px; height: 200px;
+     background-position:  -3650px -6610px;
+}
+ .bg-GY {
+    width: 500px; height: 200px;
+     background-position:  -4170px -6610px;
+}
+ .bg-GZ {
+    width: 500px; height: 200px;
+     background-position:  -4690px -6610px;
+}
+ .bg-H1 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -6610px;
+}
+ .bg-H2 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -6610px;
+}
+ .bg-H3 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -6610px;
+}
+ .bg-H4 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -6610px;
+}
+ .bg-H5 {
+    width: 500px; height: 200px;
+     background-position:  -10px -6830px;
+}
+ .bg-H6 {
+    width: 500px; height: 200px;
+     background-position:  -530px -6830px;
+}
+ .bg-H7 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -6830px;
+}
+ .bg-H8 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -6830px;
+}
+ .bg-H9 {
+    width: 500px; height: 200px;
+     background-position:  -2090px -6830px;
+}
+ .bg-HA {
+    width: 500px; height: 200px;
+     background-position:  -2610px -6830px;
+}
+ .bg-HC {
+    width: 500px; height: 200px;
+     background-position:  -3130px -6830px;
+}
+ .bg-HD {
+    width: 500px; height: 200px;
+     background-position:  -3650px -6830px;
+}
+ .bg-HE {
+    width: 500px; height: 200px;
+     background-position:  -4170px -6830px;
+}
+ .bg-HF {
+    width: 500px; height: 200px;
+     background-position:  -4690px -6830px;
+}
+ .bg-HG {
+    width: 500px; height: 200px;
+     background-position:  -5210px -6830px;
+}
+ .bg-HH {
+    width: 500px; height: 200px;
+     background-position:  -5730px -6830px;
+}
+ .bg-HI {
+    width: 500px; height: 200px;
+     background-position:  -6250px -6830px;
+}
+ .bg-HK {
+    width: 500px; height: 200px;
+     background-position:  -6770px -6830px;
+}
+ .bg-HM {
+    width: 500px; height: 200px;
+     background-position:  -10px -7050px;
+}
+ .bg-HN {
+    width: 500px; height: 200px;
+     background-position:  -530px -7050px;
+}
+ .bg-HO {
+    width: 500px; height: 200px;
+     background-position:  -1050px -7050px;
+}
+ .bg-HP {
+    width: 500px; height: 200px;
+     background-position:  -1570px -7050px;
+}
+ .bg-HQ {
+    width: 500px; height: 200px;
+     background-position:  -2090px -7050px;
+}
+ .bg-HR {
+    width: 500px; height: 200px;
+     background-position:  -2610px -7050px;
+}
+ .bg-HS {
+    width: 500px; height: 200px;
+     background-position:  -3130px -7050px;
+}
+ .bg-HT {
+    width: 500px; height: 200px;
+     background-position:  -3650px -7050px;
+}
+ .bg-HU {
+    width: 500px; height: 200px;
+     background-position:  -4170px -7050px;
+}
+ .bg-HV {
+    width: 500px; height: 200px;
+     background-position:  -4690px -7050px;
+}
+ .bg-HW {
+    width: 500px; height: 200px;
+     background-position:  -5210px -7050px;
+}
+ .bg-HX {
+    width: 500px; height: 200px;
+     background-position:  -5730px -7050px;
+}
+ .bg-HY {
+    width: 500px; height: 200px;
+     background-position:  -6250px -7050px;
+}
+ .bg-HZ {
+    width: 500px; height: 200px;
+     background-position:  -6770px -7050px;
+}
+ .bg-I2 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -10px;
+}
+ .bg-I4 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -230px;
+}
+ .bg-I5 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -450px;
+}
+ .bg-I7 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -670px;
+}
+ .bg-I8 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -890px;
+}
+ .bg-I9 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -1110px;
+}
+ .bg-IA {
+    width: 500px; height: 200px;
+     background-position:  -7290px -1330px;
+}
+ .bg-IB {
+    width: 500px; height: 200px;
+     background-position:  -7290px -1550px;
+}
+ .bg-IC {
+    width: 500px; height: 200px;
+     background-position:  -7290px -1770px;
+}
+ .bg-ID {
+    width: 500px; height: 200px;
+     background-position:  -7290px -1990px;
+}
+ .bg-IE {
+    width: 500px; height: 200px;
+     background-position:  -7290px -2210px;
+}
+ .bg-IF {
+    width: 500px; height: 200px;
+     background-position:  -7290px -2430px;
+}
+ .bg-IG {
+    width: 500px; height: 200px;
+     background-position:  -7290px -2650px;
+}
+ .bg-IH {
+    width: 500px; height: 200px;
+     background-position:  -7290px -2870px;
+}
+ .bg-II {
+    width: 500px; height: 200px;
+     background-position:  -7290px -3090px;
+}
+ .bg-IJ {
+    width: 500px; height: 200px;
+     background-position:  -7290px -3310px;
+}
+ .bg-IL {
+    width: 500px; height: 200px;
+     background-position:  -7290px -3530px;
+}
+ .bg-IM {
+    width: 500px; height: 200px;
+     background-position:  -7290px -3750px;
+}
+ .bg-IN {
+    width: 500px; height: 200px;
+     background-position:  -7290px -3970px;
+}
+ .bg-IO {
+    width: 500px; height: 200px;
+     background-position:  -7290px -4190px;
+}
+ .bg-IQ {
+    width: 500px; height: 200px;
+     background-position:  -7290px -4410px;
+}
+ .bg-IR {
+    width: 500px; height: 200px;
+     background-position:  -7290px -4630px;
+}
+ .bg-IS {
+    width: 500px; height: 200px;
+     background-position:  -7290px -4850px;
+}
+ .bg-IT {
+    width: 500px; height: 200px;
+     background-position:  -7290px -5070px;
+}
+ .bg-IV {
+    width: 500px; height: 200px;
+     background-position:  -7290px -5290px;
+}
+ .bg-IW {
+    width: 500px; height: 200px;
+     background-position:  -7290px -5510px;
+}
+ .bg-IX {
+    width: 500px; height: 200px;
+     background-position:  -7290px -5730px;
+}
+ .bg-IY {
+    width: 500px; height: 200px;
+     background-position:  -7290px -5950px;
+}
+ .bg-IZ {
+    width: 500px; height: 200px;
+     background-position:  -7290px -6170px;
+}
+ .bg-J0 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -6390px;
+}
+ .bg-J2 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -6610px;
+}
+ .bg-J3 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -6830px;
+}
+ .bg-J4 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -7050px;
+}
+ .bg-J5 {
+    width: 500px; height: 200px;
+     background-position:  -10px -7270px;
+}
+ .bg-J6 {
+    width: 500px; height: 200px;
+     background-position:  -530px -7270px;
+}
+ .bg-J7 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -7270px;
+}
+ .bg-J8 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -7270px;
+}
+ .bg-J9 {
+    width: 500px; height: 200px;
+     background-position:  -2090px -7270px;
+}
+ .bg-JA {
+    width: 500px; height: 200px;
+     background-position:  -2610px -7270px;
+}
+ .bg-JB {
+    width: 500px; height: 200px;
+     background-position:  -3130px -7270px;
+}
+ .bg-JC {
+    width: 500px; height: 200px;
+     background-position:  -3650px -7270px;
+}
+ .bg-JD {
+    width: 500px; height: 200px;
+     background-position:  -4170px -7270px;
+}
+ .bg-JE {
+    width: 500px; height: 200px;
+     background-position:  -4690px -7270px;
+}
+ .bg-JF {
+    width: 500px; height: 200px;
+     background-position:  -5210px -7270px;
+}
+ .bg-JH {
+    width: 500px; height: 200px;
+     background-position:  -5730px -7270px;
+}
+ .bg-JI {
+    width: 500px; height: 200px;
+     background-position:  -6250px -7270px;
+}
+ .bg-JJ {
+    width: 500px; height: 200px;
+     background-position:  -6770px -7270px;
+}
+ .bg-JK {
+    width: 500px; height: 200px;
+     background-position:  -7290px -7270px;
+}
+ .bg-JL {
+    width: 500px; height: 200px;
+     background-position:  -10px -7490px;
+}
+ .bg-JM {
+    width: 500px; height: 200px;
+     background-position:  -530px -7490px;
+}
+ .bg-JN {
+    width: 500px; height: 200px;
+     background-position:  -1050px -7490px;
+}
+ .bg-JO {
+    width: 500px; height: 200px;
+     background-position:  -1570px -7490px;
+}
+ .bg-JP {
+    width: 500px; height: 200px;
+     background-position:  -2090px -7490px;
+}
+ .bg-JQ {
+    width: 500px; height: 200px;
+     background-position:  -2610px -7490px;
+}
+ .bg-JR {
+    width: 500px; height: 200px;
+     background-position:  -3130px -7490px;
+}
+ .bg-JS {
+    width: 500px; height: 200px;
+     background-position:  -3650px -7490px;
+}
+ .bg-JT {
+    width: 500px; height: 200px;
+     background-position:  -4170px -7490px;
+}
+ .bg-JU {
+    width: 500px; height: 200px;
+     background-position:  -4690px -7490px;
+}
+ .bg-JV {
+    width: 500px; height: 200px;
+     background-position:  -5210px -7490px;
+}
+ .bg-JW {
+    width: 500px; height: 200px;
+     background-position:  -5730px -7490px;
+}
+ .bg-JX {
+    width: 500px; height: 200px;
+     background-position:  -6250px -7490px;
+}
+ .bg-JY {
+    width: 500px; height: 200px;
+     background-position:  -6770px -7490px;
+}
+ .bg-JZ {
+    width: 500px; height: 200px;
+     background-position:  -7290px -7490px;
+}
+ .bg-K2 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -10px;
+}
+ .bg-K3 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -230px;
+}
+ .bg-K4 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -450px;
+}
+ .bg-K5 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -670px;
+}
+ .bg-K6 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -890px;
+}
+ .bg-K7 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -1110px;
+}
+ .bg-K8 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -1330px;
+}
+ .bg-K9 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -1550px;
+}
+ .bg-KA {
+    width: 500px; height: 200px;
+     background-position:  -7810px -1770px;
+}
+ .bg-KB {
+    width: 500px; height: 200px;
+     background-position:  -7810px -1990px;
+}
+ .bg-KC {
+    width: 500px; height: 200px;
+     background-position:  -7810px -2210px;
+}
+ .bg-KD {
+    width: 500px; height: 200px;
+     background-position:  -7810px -2430px;
+}
+ .bg-KE {
+    width: 500px; height: 200px;
+     background-position:  -7810px -2650px;
+}
+ .bg-KF {
+    width: 500px; height: 200px;
+     background-position:  -7810px -2870px;
+}
+ .bg-KG {
+    width: 500px; height: 200px;
+     background-position:  -7810px -3090px;
+}
+ .bg-KI {
+    width: 500px; height: 200px;
+     background-position:  -7810px -3310px;
+}
+ .bg-KJ {
+    width: 500px; height: 200px;
+     background-position:  -7810px -3530px;
+}
+ .bg-KK {
+    width: 500px; height: 200px;
+     background-position:  -7810px -3750px;
+}
+ .bg-KL {
+    width: 500px; height: 200px;
+     background-position:  -7810px -3970px;
+}
+ .bg-KM {
+    width: 500px; height: 200px;
+     background-position:  -7810px -4190px;
+}
+ .bg-KN {
+    width: 500px; height: 200px;
+     background-position:  -7810px -4410px;
+}
+ .bg-KO {
+    width: 500px; height: 200px;
+     background-position:  -7810px -4630px;
+}
+ .bg-KP {
+    width: 500px; height: 200px;
+     background-position:  -7810px -4850px;
+}
+ .bg-KQ {
+    width: 500px; height: 200px;
+     background-position:  -7810px -5070px;
+}
+ .bg-KR {
+    width: 500px; height: 200px;
+     background-position:  -7810px -5290px;
+}
+ .bg-KS {
+    width: 500px; height: 200px;
+     background-position:  -7810px -5510px;
+}
+ .bg-KU {
+    width: 500px; height: 200px;
+     background-position:  -7810px -5730px;
+}
+ .bg-KV {
+    width: 500px; height: 200px;
+     background-position:  -7810px -5950px;
+}
+ .bg-KW {
+    width: 500px; height: 200px;
+     background-position:  -7810px -6170px;
+}
+ .bg-KX {
+    width: 500px; height: 200px;
+     background-position:  -7810px -6390px;
+}
+ .bg-KY {
+    width: 500px; height: 200px;
+     background-position:  -7810px -6610px;
+}
+ .bg-KZ {
+    width: 500px; height: 200px;
+     background-position:  -7810px -6830px;
+}
+ .bg-L2 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -7050px;
+}
+ .bg-L3 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -7270px;
+}
+ .bg-L5 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -7490px;
+}
+ .bg-L6 {
+    width: 500px; height: 200px;
+     background-position:  -10px -7710px;
+}
+ .bg-L7 {
+    width: 500px; height: 200px;
+     background-position:  -530px -7710px;
+}
+ .bg-L8 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -7710px;
+}
+ .bg-LA {
+    width: 500px; height: 200px;
+     background-position:  -1570px -7710px;
+}
+ .bg-LB {
+    width: 500px; height: 200px;
+     background-position:  -2090px -7710px;
+}
+ .bg-LC {
+    width: 500px; height: 200px;
+     background-position:  -2610px -7710px;
+}
+ .bg-LD {
+    width: 500px; height: 200px;
+     background-position:  -3130px -7710px;
+}
+ .bg-LE {
+    width: 500px; height: 200px;
+     background-position:  -3650px -7710px;
+}
+ .bg-LF {
+    width: 500px; height: 200px;
+     background-position:  -4170px -7710px;
+}
+ .bg-LG {
+    width: 500px; height: 200px;
+     background-position:  -4690px -7710px;
+}
+ .bg-LH {
+    width: 500px; height: 200px;
+     background-position:  -5210px -7710px;
+}
+ .bg-LI {
+    width: 500px; height: 200px;
+     background-position:  -5730px -7710px;
+}
+ .bg-LJ {
+    width: 500px; height: 200px;
+     background-position:  -6250px -7710px;
+}
+ .bg-LK {
+    width: 500px; height: 200px;
+     background-position:  -6770px -7710px;
+}
+ .bg-LL {
+    width: 500px; height: 200px;
+     background-position:  -7290px -7710px;
+}
+ .bg-LM {
+    width: 500px; height: 200px;
+     background-position:  -7810px -7710px;
+}
+ .bg-LN {
+    width: 500px; height: 200px;
+     background-position:  -10px -7930px;
+}
+ .bg-LO {
+    width: 500px; height: 200px;
+     background-position:  -530px -7930px;
+}
+ .bg-lp {
+    width: 500px; height: 200px;
+     background-position:  -1050px -7930px;
+}
+ .bg-LQ {
+    width: 500px; height: 200px;
+     background-position:  -1570px -7930px;
+}
+ .bg-LR {
+    width: 500px; height: 200px;
+     background-position:  -2090px -7930px;
+}
+ .bg-LT {
+    width: 500px; height: 200px;
+     background-position:  -2610px -7930px;
+}
+ .bg-LU {
+    width: 500px; height: 200px;
+     background-position:  -3130px -7930px;
+}
+ .bg-LV {
+    width: 500px; height: 200px;
+     background-position:  -3650px -7930px;
+}
+ .bg-LW {
+    width: 500px; height: 200px;
+     background-position:  -4170px -7930px;
+}
+ .bg-LX {
+    width: 500px; height: 200px;
+     background-position:  -4690px -7930px;
+}
+ .bg-LY {
+    width: 500px; height: 200px;
+     background-position:  -5210px -7930px;
+}
+ .bg-LZ {
+    width: 500px; height: 200px;
+     background-position:  -5730px -7930px;
+}
+ .bg-M0 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -7930px;
+}
+ .bg-M3 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -7930px;
+}
+ .bg-M4 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -7930px;
+}
+ .bg-M5 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -7930px;
+}
+ .bg-M6 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -10px;
+}
+ .bg-M7 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -230px;
+}
+ .bg-M8 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -450px;
+}
+ .bg-M9 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -670px;
+}
+ .bg-MA {
+    width: 500px; height: 200px;
+     background-position:  -8330px -890px;
+}
+ .bg-MC {
+    width: 500px; height: 200px;
+     background-position:  -8330px -1110px;
+}
+ .bg-MD {
+    width: 500px; height: 200px;
+     background-position:  -8330px -1330px;
+}
+ .bg-ME {
+    width: 500px; height: 200px;
+     background-position:  -8330px -1550px;
+}
+ .bg-MF {
+    width: 500px; height: 200px;
+     background-position:  -8330px -1770px;
+}
+ .bg-MH {
+    width: 500px; height: 200px;
+     background-position:  -8330px -1990px;
+}
+ .bg-MI {
+    width: 500px; height: 200px;
+     background-position:  -8330px -2210px;
+}
+ .bg-MJ {
+    width: 500px; height: 200px;
+     background-position:  -8330px -2430px;
+}
+ .bg-MK {
+    width: 500px; height: 200px;
+     background-position:  -8330px -2650px;
+}
+ .bg-ML {
+    width: 500px; height: 200px;
+     background-position:  -8330px -2870px;
+}
+ .bg-MM {
+    width: 500px; height: 200px;
+     background-position:  -8330px -3090px;
+}
+ .bg-MN {
+    width: 500px; height: 200px;
+     background-position:  -8330px -3310px;
+}
+ .bg-MO {
+    width: 500px; height: 200px;
+     background-position:  -8330px -3530px;
+}
+ .bg-MP {
+    width: 500px; height: 200px;
+     background-position:  -8330px -3750px;
+}
+ .bg-MQ {
+    width: 500px; height: 200px;
+     background-position:  -8330px -3970px;
+}
+ .bg-MR {
+    width: 500px; height: 200px;
+     background-position:  -8330px -4190px;
+}
+ .bg-MS {
+    width: 500px; height: 200px;
+     background-position:  -8330px -4410px;
+}
+ .bg-MT {
+    width: 500px; height: 200px;
+     background-position:  -8330px -4630px;
+}
+ .bg-MU {
+    width: 500px; height: 200px;
+     background-position:  -8330px -4850px;
+}
+ .bg-MV {
+    width: 500px; height: 200px;
+     background-position:  -8330px -5070px;
+}
+ .bg-MW {
+    width: 500px; height: 200px;
+     background-position:  -8330px -5290px;
+}
+ .bg-MX {
+    width: 500px; height: 200px;
+     background-position:  -8330px -5510px;
+}
+ .bg-MY {
+    width: 500px; height: 200px;
+     background-position:  -8330px -5730px;
+}
+ .bg-MZ {
+    width: 500px; height: 200px;
+     background-position:  -8330px -5950px;
+}
+ .bg-N2 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -6170px;
+}
+ .bg-N3 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -6390px;
+}
+ .bg-N4 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -6610px;
+}
+ .bg-N5 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -6830px;
+}
+ .bg-N7 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -7050px;
+}
+ .bg-N8 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -7270px;
+}
+ .bg-N9 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -7490px;
+}
+ .bg-NA {
+    width: 500px; height: 200px;
+     background-position:  -8330px -7710px;
+}
+ .bg-NB {
+    width: 500px; height: 200px;
+     background-position:  -8330px -7930px;
+}
+ .bg-NC {
+    width: 500px; height: 200px;
+     background-position:  -10px -8150px;
+}
+ .bg-ND {
+    width: 500px; height: 200px;
+     background-position:  -530px -8150px;
+}
+ .bg-NE {
+    width: 500px; height: 200px;
+     background-position:  -1050px -8150px;
+}
+ .bg-NF {
+    width: 500px; height: 200px;
+     background-position:  -1570px -8150px;
+}
+ .bg-NG {
+    width: 500px; height: 200px;
+     background-position:  -2090px -8150px;
+}
+ .bg-NH {
+    width: 500px; height: 200px;
+     background-position:  -2610px -8150px;
+}
+ .bg-NI {
+    width: 500px; height: 200px;
+     background-position:  -3130px -8150px;
+}
+ .bg-NJ {
+    width: 500px; height: 200px;
+     background-position:  -3650px -8150px;
+}
+ .bg-NK {
+    width: 500px; height: 200px;
+     background-position:  -4170px -8150px;
+}
+ .bg-NL {
+    width: 500px; height: 200px;
+     background-position:  -4690px -8150px;
+}
+ .bg-NM {
+    width: 500px; height: 200px;
+     background-position:  -5210px -8150px;
+}
+ .bg-NN {
+    width: 500px; height: 200px;
+     background-position:  -5730px -8150px;
+}
+ .bg-NO {
+    width: 500px; height: 200px;
+     background-position:  -6250px -8150px;
+}
+ .bg-NP {
+    width: 500px; height: 200px;
+     background-position:  -6770px -8150px;
+}
+ .bg-NQ {
+    width: 500px; height: 200px;
+     background-position:  -7290px -8150px;
+}
+ .bg-NR {
+    width: 500px; height: 200px;
+     background-position:  -7810px -8150px;
+}
+ .bg-NS {
+    width: 500px; height: 200px;
+     background-position:  -8330px -8150px;
+}
+ .bg-NT {
+    width: 500px; height: 200px;
+     background-position:  -10px -8370px;
+}
+ .bg-NU {
+    width: 500px; height: 200px;
+     background-position:  -530px -8370px;
+}
+ .bg-NV {
+    width: 500px; height: 200px;
+     background-position:  -1050px -8370px;
+}
+ .bg-NW {
+    width: 500px; height: 200px;
+     background-position:  -1570px -8370px;
+}
+ .bg-NX {
+    width: 500px; height: 200px;
+     background-position:  -2090px -8370px;
+}
+ .bg-NY {
+    width: 500px; height: 200px;
+     background-position:  -2610px -8370px;
+}
+ .bg-NZ {
+    width: 500px; height: 200px;
+     background-position:  -3130px -8370px;
+}
+ .bg-O2 {
+    width: 500px; height: 200px;
+     background-position:  -3650px -8370px;
+}
+ .bg-O4 {
+    width: 500px; height: 200px;
+     background-position:  -4170px -8370px;
+}
+ .bg-O5 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -8370px;
+}
+ .bg-O6 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -8370px;
+}
+ .bg-O8 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -8370px;
+}
+ .bg-O9 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -8370px;
+}
+ .bg-OA {
+    width: 500px; height: 200px;
+     background-position:  -6770px -8370px;
+}
+ .bg-OB {
+    width: 500px; height: 200px;
+     background-position:  -7290px -8370px;
+}
+ .bg-OC {
+    width: 500px; height: 200px;
+     background-position:  -7810px -8370px;
+}
+ .bg-OD {
+    width: 500px; height: 200px;
+     background-position:  -8330px -8370px;
+}
+ .bg-OE {
+    width: 500px; height: 200px;
+     background-position:  -10px -8590px;
+}
+ .bg-OF {
+    width: 500px; height: 200px;
+     background-position:  -530px -8590px;
+}
+ .bg-OG {
+    width: 500px; height: 200px;
+     background-position:  -1050px -8590px;
+}
+ .bg-OH {
+    width: 500px; height: 200px;
+     background-position:  -1570px -8590px;
+}
+ .bg-OI {
+    width: 500px; height: 200px;
+     background-position:  -2090px -8590px;
+}
+ .bg-OJ {
+    width: 500px; height: 200px;
+     background-position:  -2610px -8590px;
+}
+ .bg-OK {
+    width: 500px; height: 200px;
+     background-position:  -3130px -8590px;
+}
+ .bg-OL {
+    width: 500px; height: 200px;
+     background-position:  -3650px -8590px;
+}
+ .bg-OM {
+    width: 500px; height: 200px;
+     background-position:  -4170px -8590px;
+}
+ .bg-ON {
+    width: 500px; height: 200px;
+     background-position:  -4690px -8590px;
+}
+ .bg-OO {
+    width: 500px; height: 200px;
+     background-position:  -5210px -8590px;
+}
+ .bg-OP {
+    width: 500px; height: 200px;
+     background-position:  -5730px -8590px;
+}
+ .bg-OQ {
+    width: 500px; height: 200px;
+     background-position:  -6250px -8590px;
+}
+ .bg-OR {
+    width: 500px; height: 200px;
+     background-position:  -6770px -8590px;
+}
+ .bg-OS {
+    width: 500px; height: 200px;
+     background-position:  -7290px -8590px;
+}
+ .bg-OT {
+    width: 500px; height: 200px;
+     background-position:  -7810px -8590px;
+}
+ .bg-OU {
+    width: 500px; height: 200px;
+     background-position:  -8330px -8590px;
+}
+ .bg-OV {
+    width: 500px; height: 200px;
+     background-position:  -8850px -10px;
+}
+ .bg-OW {
+    width: 500px; height: 200px;
+     background-position:  -8850px -230px;
+}
+ .bg-OX {
+    width: 500px; height: 200px;
+     background-position:  -8850px -450px;
+}
+ .bg-OY {
+    width: 500px; height: 200px;
+     background-position:  -8850px -670px;
+}
+ .bg-OZ {
+    width: 500px; height: 200px;
+     background-position:  -8850px -890px;
+}
+ .bg-P0 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -1110px;
+}
+ .bg-P2 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -1330px;
+}
+ .bg-P4 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -1550px;
+}
+ .bg-P5 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -1770px;
+}
+ .bg-P6 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -1990px;
+}
+ .bg-P7 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -2210px;
+}
+ .bg-P8 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -2430px;
+}
+ .bg-P9 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -2650px;
+}
+ .bg-PA {
+    width: 500px; height: 200px;
+     background-position:  -8850px -2870px;
+}
+ .bg-PB {
+    width: 500px; height: 200px;
+     background-position:  -8850px -3090px;
+}
+ .bg-PC {
+    width: 500px; height: 200px;
+     background-position:  -8850px -3310px;
+}
+ .bg-PD {
+    width: 500px; height: 200px;
+     background-position:  -8850px -3530px;
+}
+ .bg-PE {
+    width: 500px; height: 200px;
+     background-position:  -8850px -3750px;
+}
+ .bg-PF {
+    width: 500px; height: 200px;
+     background-position:  -8850px -3970px;
+}
+ .bg-PG {
+    width: 500px; height: 200px;
+     background-position:  -8850px -4190px;
+}
+ .bg-PH {
+    width: 500px; height: 200px;
+     background-position:  -8850px -4410px;
+}
+ .bg-PI {
+    width: 500px; height: 200px;
+     background-position:  -8850px -4630px;
+}
+ .bg-PJ {
+    width: 500px; height: 200px;
+     background-position:  -8850px -4850px;
+}
+ .bg-PK {
+    width: 500px; height: 200px;
+
+     background-position:  -8850px -5070px;
+}
+
+ .bg-PL {
+    width: 500px; height: 200px;
+     background-position:  -8850px -5290px;
+}
+ .bg-PM {
+    width: 500px; height: 200px;
+     background-position:  -8850px -5510px;
+}
+ .bg-PN {
+    width: 500px; height: 200px;
+     background-position:  -8850px -5730px;
+}
+ .bg-PO {
+    width: 500px; height: 200px;
+     background-position:  -8850px -5950px;
+}
+ .bg-PQ {
+    width: 500px; height: 200px;
+     background-position:  -8850px -6170px;
+}
+ .bg-PR {
+    width: 500px; height: 200px;
+     background-position:  -8850px -6390px;
+}
+ .bg-PS {
+    width: 500px; height: 200px;
+     background-position:  -8850px -6610px;
+}
+ .bg-PU {
+    width: 500px; height: 200px;
+     background-position:  -8850px -6830px;
+}
+ .bg-PV {
+    width: 500px; height: 200px;
+     background-position:  -8850px -7050px;
+}
+ .bg-PW {
+    width: 500px; height: 200px;
+     background-position:  -8850px -7270px;
+}
+ .bg-PX {
+    width: 500px; height: 200px;
+     background-position:  -8850px -7490px;
+}
+ .bg-PY {
+    width: 500px; height: 200px;
+     background-position:  -8850px -7710px;
+}
+ .bg-PZ {
+    width: 500px; height: 200px;
+     background-position:  -8850px -7930px;
+}
+ .bg-Q2 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -8150px;
+}
+ .bg-Q3 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -8370px;
+}
+ .bg-Q4 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -8590px;
+}
+ .bg-Q5 {
+    width: 500px; height: 200px;
+     background-position:  -10px -8810px;
+}
+ .bg-Q6 {
+    width: 500px; height: 200px;
+     background-position:  -530px -8810px;
+}
+ .bg-Q7 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -8810px;
+}
+ .bg-Q8 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -8810px;
+}
+ .bg-Q9 {
+    width: 500px; height: 200px;
+     background-position:  -2090px -8810px;
+}
+ .bg-QA {
+    width: 500px; height: 200px;
+     background-position:  -2610px -8810px;
+}
+ .bg-QB {
+    width: 500px; height: 200px;
+     background-position:  -3130px -8810px;
+}
+ .bg-QC {
+    width: 500px; height: 200px;
+     background-position:  -3650px -8810px;
+}
+ .bg-QD {
+    width: 500px; height: 200px;
+     background-position:  -4170px -8810px;
+}
+ .bg-QE {
+    width: 500px; height: 200px;
+     background-position:  -4690px -8810px;
+}
+ .bg-QF {
+    width: 500px; height: 200px;
+     background-position:  -5210px -8810px;
+}
+ .bg-QG {
+    width: 500px; height: 200px;
+     background-position:  -5730px -8810px;
+}
+ .bg-QH {
+    width: 500px; height: 200px;
+     background-position:  -6250px -8810px;
+}
+ .bg-QI {
+    width: 500px; height: 200px;
+     background-position:  -6770px -8810px;
+}
+ .bg-QJ {
+    width: 500px; height: 200px;
+     background-position:  -7290px -8810px;
+}
+ .bg-QK {
+    width: 500px; height: 200px;
+     background-position:  -7810px -8810px;
+}
+ .bg-QL {
+    width: 500px; height: 200px;
+     background-position:  -8330px -8810px;
+}
+ .bg-QM {
+    width: 500px; height: 200px;
+     background-position:  -8850px -8810px;
+}
+ .bg-QN {
+    width: 500px; height: 200px;
+     background-position:  -10px -9030px;
+}
+ .bg-QP {
+    width: 500px; height: 200px;
+     background-position:  -530px -9030px;
+}
+ .bg-QQ {
+    width: 500px; height: 200px;
+     background-position:  -1050px -9030px;
+}
+ .bg-QR {
+    width: 500px; height: 200px;
+     background-position:  -1570px -9030px;
+}
+ .bg-QS {
+    width: 500px; height: 200px;
+     background-position:  -2090px -9030px;
+}
+ .bg-QT {
+    width: 500px; height: 200px;
+     background-position:  -2610px -9030px;
+}
+ .bg-QU {
+    width: 500px; height: 200px;
+     background-position:  -3130px -9030px;
+}
+ .bg-QV {
+    width: 500px; height: 200px;
+     background-position:  -3650px -9030px;
+}
+ .bg-QW {
+    width: 500px; height: 200px;
+     background-position:  -4170px -9030px;
+}
+ .bg-QX {
+    width: 500px; height: 200px;
+     background-position:  -4690px -9030px;
+}
+ .bg-QY {
+    width: 500px; height: 200px;
+     background-position:  -5210px -9030px;
+}
+ .bg-QZ {
+    width: 500px; height: 200px;
+     background-position:  -5730px -9030px;
+}
+ .bg-R2 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -9030px;
+}
+ .bg-R3 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -9030px;
+}
+ .bg-R4 {
+    width: 500px; height: 200px;
+     background-position:  -7290px -9030px;
+}
+ .bg-R5 {
+    width: 500px; height: 200px;
+     background-position:  -7810px -9030px;
+}
+ .bg-R6 {
+    width: 500px; height: 200px;
+     background-position:  -8330px -9030px;
+}
+ .bg-R7 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -9030px;
+}
+ .bg-R9 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -10px;
+}
+ .bg-RA {
+    width: 500px; height: 200px;
+     background-position:  -9370px -230px;
+}
+ .bg-RB {
+    width: 500px; height: 200px;
+     background-position:  -9370px -450px;
+}
+ .bg-RC {
+    width: 500px; height: 200px;
+     background-position:  -9370px -670px;
+}
+ .bg-RD {
+    width: 500px; height: 200px;
+     background-position:  -9370px -890px;
+}
+ .bg-RE {
+    width: 500px; height: 200px;
+     background-position:  -9370px -1110px;
+}
+ .bg-RF {
+    width: 500px; height: 200px;
+     background-position:  -9370px -1330px;
+}
+ .bg-RG {
+    width: 500px; height: 200px;
+     background-position:  -9370px -1550px;
+}
+ .bg-RH {
+    width: 500px; height: 200px;
+     background-position:  -9370px -1770px;
+}
+ .bg-RI {
+    width: 500px; height: 200px;
+     background-position:  -9370px -1990px;
+}
+ .bg-RJ {
+    width: 500px; height: 200px;
+     background-position:  -9370px -2210px;
+}
+ .bg-RK {
+    width: 500px; height: 200px;
+     background-position:  -9370px -2430px;
+}
+ .bg-RL {
+    width: 500px; height: 200px;
+     background-position:  -9370px -2650px;
+}
+ .bg-RM {
+    width: 500px; height: 200px;
+     background-position:  -9370px -2870px;
+}
+ .bg-RN {
+    width: 500px; height: 200px;
+     background-position:  -9370px -3090px;
+}
+ .bg-RO {
+    width: 500px; height: 200px;
+     background-position:  -9370px -3310px;
+}
+ .bg-RP {
+    width: 500px; height: 200px;
+     background-position:  -9370px -3530px;
+}
+ .bg-RQ {
+    width: 500px; height: 200px;
+     background-position:  -9370px -3750px;
+}
+ .bg-RS {
+    width: 500px; height: 200px;
+     background-position:  -9370px -3970px;
+}
+ .bg-RT {
+    width: 500px; height: 200px;
+     background-position:  -9370px -4190px;
+}
+ .bg-RU {
+    width: 500px; height: 200px;
+     background-position:  -9370px -4410px;
+}
+ .bg-RV {
+    width: 500px; height: 200px;
+     background-position:  -9370px -4630px;
+}
+ .bg-RW {
+    width: 500px; height: 200px;
+     background-position:  -9370px -4850px;
+}
+ .bg-RX {
+    width: 500px; height: 200px;
+     background-position:  -9370px -5070px;
+}
+ .bg-RY {
+    width: 500px; height: 200px;
+     background-position:  -9370px -5290px;
+}
+ .bg-RZ {
+    width: 500px; height: 200px;
+     background-position:  -9370px -5510px;
+}
+ .bg-S0 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -5730px;
+}
+ .bg-S2 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -5950px;
+}
+ .bg-S3 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -6170px;
+}
+ .bg-S4 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -6390px;
+}
+ .bg-S5 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -6610px;
+}
+ .bg-S6 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -6830px;
+}
+ .bg-S7 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -7050px;
+}
+ .bg-S8 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -7270px;
+}
+ .bg-S9 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -7490px;
+}
+ .bg-SA {
+    width: 500px; height: 200px;
+     background-position:  -9370px -7710px;
+}
+ .bg-SB {
+    width: 500px; height: 200px;
+     background-position:  -9370px -7930px;
+}
+ .bg-SC {
+    width: 500px; height: 200px;
+     background-position:  -9370px -8150px;
+}
+ .bg-SD {
+    width: 500px; height: 200px;
+     background-position:  -9370px -8370px;
+}
+ .bg-SE {
+    width: 500px; height: 200px;
+     background-position:  -9370px -8590px;
+}
+ .bg-SF {
+    width: 500px; height: 200px;
+     background-position:  -9370px -8810px;
+}
+ .bg-SG {
+    width: 500px; height: 200px;
+     background-position:  -9370px -9030px;
+}
+ .bg-SH {
+    width: 500px; height: 200px;
+     background-position:  -10px -9250px;
+}
+ .bg-SI {
+    width: 500px; height: 200px;
+     background-position:  -530px -9250px;
+}
+ .bg-SJ {
+    width: 500px; height: 200px;
+     background-position:  -1050px -9250px;
+}
+ .bg-SK {
+    width: 500px; height: 200px;
+     background-position:  -1570px -9250px;
+}
+ .bg-SL {
+    width: 500px; height: 200px;
+     background-position:  -2090px -9250px;
+}
+ .bg-SM {
+    width: 500px; height: 200px;
+     background-position:  -2610px -9250px;
+}
+ .bg-SN {
+    width: 500px; height: 200px;
+     background-position:  -3130px -9250px;
+}
+ .bg-SO {
+    width: 500px; height: 200px;
+     background-position:  -3650px -9250px;
+}
+ .bg-SP {
+    width: 500px; height: 200px;
+     background-position:  -4170px -9250px;
+}
+ .bg-SQ {
+    width: 500px; height: 200px;
+     background-position:  -4690px -9250px;
+}
+ .bg-SR {
+    width: 500px; height: 200px;
+     background-position:  -5210px -9250px;
+}
+ .bg-SS {
+    width: 500px; height: 200px;
+     background-position:  -5730px -9250px;
+}
+ .bg-ST {
+    width: 500px; height: 200px;
+     background-position:  -6250px -9250px;
+}
+ .bg-SU {
+    width: 500px; height: 200px;
+     background-position:  -6770px -9250px;
+}
+ .bg-SV {
+    width: 500px; height: 200px;
+     background-position:  -7290px -9250px;
+}
+ .bg-SW {
+    width: 500px; height: 200px;
+     background-position:  -7810px -9250px;
+}
+ .bg-SX {
+    width: 500px; height: 200px;
+     background-position:  -8330px -9250px;
+}
+ .bg-SY {
+    width: 500px; height: 200px;
+     background-position:  -8850px -9250px;
+}
+ .bg-SZ {
+    width: 500px; height: 200px;
+     background-position:  -9370px -9250px;
+}
+ .bg-T0 {
+    width: 500px; height: 200px;
+     background-position:  -10px -9470px;
+}
+ .bg-T1 {
+    width: 500px; height: 200px;
+     background-position:  -530px -9470px;
+}
+ .bg-T2 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -9470px;
+}
+ .bg-T3 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -9470px;
+}
+ .bg-T4 {
+    width: 500px; height: 200px;
+     background-position:  -2090px -9470px;
+}
+ .bg-T5 {
+    width: 500px; height: 200px;
+     background-position:  -2610px -9470px;
+}
+ .bg-T6 {
+    width: 500px; height: 200px;
+     background-position:  -3130px -9470px;
+}
+ .bg-T7 {
+    width: 500px; height: 200px;
+     background-position:  -3650px -9470px;
+}
+ .bg-T8 {
+    width: 500px; height: 200px;
+     background-position:  -4170px -9470px;
+}
+ .bg-TA {
+    width: 500px; height: 200px;
+     background-position:  -4690px -9470px;
+}
+ .bg-TB {
+    width: 500px; height: 200px;
+     background-position:  -5210px -9470px;
+}
+ .bg-TC {
+    width: 500px; height: 200px;
+     background-position:  -5730px -9470px;
+}
+ .bg-TD {
+    width: 500px; height: 200px;
+     background-position:  -6250px -9470px;
+}
+ .bg-TE {
+    width: 500px; height: 200px;
+     background-position:  -6770px -9470px;
+}
+ .bg-TF {
+    width: 500px; height: 200px;
+     background-position:  -7290px -9470px;
+}
+ .bg-TG {
+    width: 500px; height: 200px;
+     background-position:  -7810px -9470px;
+}
+ .bg-TH {
+    width: 500px; height: 200px;
+     background-position:  -8330px -9470px;
+}
+ .bg-TI {
+    width: 500px; height: 200px;
+     background-position:  -8850px -9470px;
+}
+ .bg-TJ {
+    width: 500px; height: 200px;
+     background-position:  -9370px -9470px;
+}
+ .bg-TK {
+    width: 500px; height: 200px;
+     background-position:  -9890px -10px;
+}
+ .bg-TL {
+    width: 500px; height: 200px;
+     background-position:  -9890px -230px;
+}
+ .bg-TM {
+    width: 500px; height: 200px;
+     background-position:  -9890px -450px;
+}
+ .bg-TN {
+    width: 500px; height: 200px;
+     background-position:  -9890px -670px;
+}
+ .bg-TO {
+    width: 500px; height: 200px;
+     background-position:  -9890px -890px;
+}
+ .bg-TP {
+    width: 500px; height: 200px;
+     background-position:  -9890px -1110px;
+}
+ .bg-TQ {
+    width: 500px; height: 200px;
+     background-position:  -9890px -1330px;
+}
+ .bg-TR {
+    width: 500px; height: 200px;
+     background-position:  -9890px -1550px;
+}
+ .bg-TS {
+    width: 500px; height: 200px;
+     background-position:  -9890px -1770px;
+}
+ .bg-TT {
+    width: 500px; height: 200px;
+     background-position:  -9890px -1990px;
+}
+ .bg-TU {
+    width: 500px; height: 200px;
+     background-position:  -9890px -2210px;
+}
+ .bg-TV {
+    width: 500px; height: 200px;
+     background-position:  -9890px -2430px;
+}
+ .bg-TW {
+    width: 500px; height: 200px;
+     background-position:  -9890px -2650px;
+}
+ .bg-TX {
+    width: 500px; height: 200px;
+     background-position:  -9890px -2870px;
+}
+ .bg-TY {
+    width: 500px; height: 200px;
+     background-position:  -9890px -3090px;
+}
+ .bg-TZ {
+    width: 500px; height: 200px;
+     background-position:  -9890px -3310px;
+}
+ .bg-U2 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -3530px;
+}
+ .bg-U3 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -3750px;
+}
+ .bg-U4 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -3970px;
+}
+ .bg-U5 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -4190px;
+}
+ .bg-U6 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -4410px;
+}
+ .bg-U7 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -4630px;
+}
+ .bg-U8 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -4850px;
+}
+ .bg-U9 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -5070px;
+}
+ .bg-UA {
+    width: 500px; height: 200px;
+     background-position:  -9890px -5290px;
+}
+ .bg-UB {
+    width: 500px; height: 200px;
+     background-position:  -9890px -5510px;
+}
+ .bg-UC {
+    width: 500px; height: 200px;
+     background-position:  -9890px -5730px;
+}
+ .bg-UD {
+    width: 500px; height: 200px;
+     background-position:  -9890px -5950px;
+}
+ .bg-UE {
+    width: 500px; height: 200px;
+     background-position:  -9890px -6170px;
+}
+ .bg-UF {
+    width: 500px; height: 200px;
+     background-position:  -9890px -6390px;
+}
+ .bg-UG {
+    width: 500px; height: 200px;
+     background-position:  -9890px -6610px;
+}
+ .bg-UH {
+    width: 500px; height: 200px;
+     background-position:  -9890px -6830px;
+}
+ .bg-UI {
+    width: 500px; height: 200px;
+     background-position:  -9890px -7050px;
+}
+ .bg-UJ {
+    width: 500px; height: 200px;
+     background-position:  -9890px -7270px;
+}
+ .bg-UK {
+    width: 500px; height: 200px;
+     background-position:  -9890px -7490px;
+}
+ .bg-UL {
+    width: 500px; height: 200px;
+     background-position:  -9890px -7710px;
+}
+ .bg-UM {
+    width: 500px; height: 200px;
+     background-position:  -9890px -7930px;
+}
+ .bg-UN {
+    width: 500px; height: 200px;
+     background-position:  -9890px -8150px;
+}
+ .bg-UO {
+    width: 500px; height: 200px;
+     background-position:  -9890px -8370px;
+}
+ .bg-UP {
+    width: 500px; height: 200px;
+     background-position:  -9890px -8590px;
+}
+ .bg-UQ {
+    width: 500px; height: 200px;
+     background-position:  -9890px -8810px;
+}
+ .bg-US {
+    width: 500px; height: 200px;
+     background-position:  -9890px -9030px;
+}
+ .bg-UT {
+    width: 500px; height: 200px;
+     background-position:  -9890px -9250px;
+}
+ .bg-UU {
+    width: 500px; height: 200px;
+     background-position:  -9890px -9470px;
+}
+ .bg-UV {
+    width: 500px; height: 200px;
+     background-position:  -10px -9690px;
+}
+ .bg-UW {
+    width: 500px; height: 200px;
+     background-position:  -530px -9690px;
+}
+ .bg-UX {
+    width: 500px; height: 200px;
+     background-position:  -1050px -9690px;
+}
+ .bg-UY {
+    width: 500px; height: 200px;
+     background-position:  -1570px -9690px;
+}
+ .bg-UZ {
+    width: 500px; height: 200px;
+     background-position:  -2090px -9690px;
+}
+ .bg-V0 {
+    width: 500px; height: 200px;
+     background-position:  -2610px -9690px;
+}
+ .bg-V2 {
+    width: 500px; height: 200px;
+     background-position:  -3130px -9690px;
+}
+ .bg-V3 {
+    width: 500px; height: 200px;
+     background-position:  -3650px -9690px;
+}
+ .bg-V4 {
+    width: 500px; height: 200px;
+     background-position:  -4170px -9690px;
+}
+ .bg-V5 {
+    width: 500px; height: 200px;
+     background-position:  -4690px -9690px;
+}
+ .bg-V6 {
+    width: 500px; height: 200px;
+     background-position:  -5210px -9690px;
+}
+ .bg-V7 {
+    width: 500px; height: 200px;
+     background-position:  -5730px -9690px;
+}
+ .bg-V8 {
+    width: 500px; height: 200px;
+     background-position:  -6250px -9690px;
+}
+ .bg-V9 {
+    width: 500px; height: 200px;
+     background-position:  -6770px -9690px;
+}
+ .bg-VA {
+    width: 500px; height: 200px;
+     background-position:  -7290px -9690px;
+}
+ .bg-VB {
+    width: 500px; height: 200px;
+     background-position:  -7810px -9690px;
+}
+ .bg-VC {
+    width: 500px; height: 200px;
+     background-position:  -8330px -9690px;
+}
+ .bg-VD {
+    width: 500px; height: 200px;
+     background-position:  -8850px -9690px;
+}
+ .bg-VE {
+    width: 500px; height: 200px;
+     background-position:  -9370px -9690px;
+}
+ .bg-VF {
+    width: 500px; height: 200px;
+     background-position:  -9890px -9690px;
+}
+ .bg-VG {
+    width: 500px; height: 200px;
+     background-position:  -10px -9910px;
+}
+ .bg-VI {
+    width: 500px; height: 200px;
+     background-position:  -530px -9910px;
+}
+ .bg-VJ {
+    width: 500px; height: 200px;
+     background-position:  -1050px -9910px;
+}
+ .bg-VK {
+    width: 500px; height: 200px;
+     background-position:  -1570px -9910px;
+}
+ .bg-VL {
+    width: 500px; height: 200px;
+     background-position:  -2090px -9910px;
+}
+ .bg-VM {
+    width: 500px; height: 200px;
+     background-position:  -2610px -9910px;
+}
+ .bg-VO {
+    width: 500px; height: 200px;
+     background-position:  -3130px -9910px;
+}
+ .bg-VP {
+    width: 500px; height: 200px;
+     background-position:  -3650px -9910px;
+}
+ .bg-VQ {
+    width: 500px; height: 200px;
+     background-position:  -4170px -9910px;
+}
+ .bg-VR {
+    width: 500px; height: 200px;
+     background-position:  -4690px -9910px;
+}
+ .bg-VS {
+    width: 500px; height: 200px;
+     background-position:  -5210px -9910px;
+}
+ .bg-VT {
+    width: 500px; height: 200px;
+     background-position:  -5730px -9910px;
+}
+ .bg-VU {
+    width: 500px; height: 200px;
+     background-position:  -6250px -9910px;
+}
+ .bg-VV {
+    width: 500px; height: 200px;
+     background-position:  -6770px -9910px;
+}
+ .bg-VW {
+    width: 500px; height: 200px;
+     background-position:  -7290px -9910px;
+}
+ .bg-VX {
+    width: 500px; height: 200px;
+     background-position:  -7810px -9910px;
+}
+ .bg-VY {
+    width: 500px; height: 200px;
+     background-position:  -8330px -9910px;
+}
+ .bg-VZ {
+    width: 500px; height: 200px;
+     background-position:  -8850px -9910px;
+}
+ .bg-W2 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -9910px;
+}
+ .bg-W3 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -9910px;
+}
+ .bg-W4 {
+    width: 500px; height: 200px;
+     background-position:  -10px -10130px;
+}
+ .bg-W5 {
+    width: 500px; height: 200px;
+     background-position:  -530px -10130px;
+}
+ .bg-W6 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -10130px;
+}
+ .bg-W7 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -10130px;
+}
+ .bg-W9 {
+    width: 500px; height: 200px;
+     background-position:  -2090px -10130px;
+}
+ .bg-WA {
+    width: 500px; height: 200px;
+     background-position:  -2610px -10130px;
+}
+ .bg-WB {
+    width: 500px; height: 200px;
+     background-position:  -3130px -10130px;
+}
+ .bg-WC {
+    width: 500px; height: 200px;
+     background-position:  -3650px -10130px;
+}
+ .bg-WD {
+    width: 500px; height: 200px;
+     background-position:  -4170px -10130px;
+}
+ .bg-WE {
+    width: 500px; height: 200px;
+     background-position:  -4690px -10130px;
+}
+ .bg-WF {
+    width: 500px; height: 200px;
+     background-position:  -5210px -10130px;
+}
+ .bg-WG {
+    width: 500px; height: 200px;
+     background-position:  -5730px -10130px;
+}
+ .bg-WH {
+    width: 500px; height: 200px;
+     background-position:  -6250px -10130px;
+}
+ .bg-WJ {
+    width: 500px; height: 200px;
+     background-position:  -6770px -10130px;
+}
+ .bg-WK {
+    width: 500px; height: 200px;
+     background-position:  -7290px -10130px;
+}
+ .bg-WL {
+    width: 500px; height: 200px;
+     background-position:  -7810px -10130px;
+}
+ .bg-WM {
+    width: 500px; height: 200px;
+     background-position:  -8330px -10130px;
+}
+ .bg-WN {
+    width: 500px; height: 200px;
+     background-position:  -8850px -10130px;
+}
+ .bg-WO {
+    width: 500px; height: 200px;
+     background-position:  -9370px -10130px;
+}
+ .bg-WP {
+    width: 500px; height: 200px;
+     background-position:  -9890px -10130px;
+}
+ .bg-WQ {
+    width: 500px; height: 200px;
+     background-position:  -10410px -10px;
+}
+ .bg-WR {
+    width: 500px; height: 200px;
+     background-position:  -10410px -230px;
+}
+ .bg-WS {
+    width: 500px; height: 200px;
+     background-position:  -10410px -450px;
+}
+ .bg-WT {
+    width: 500px; height: 200px;
+     background-position:  -10410px -670px;
+}
+ .bg-WU {
+    width: 500px; height: 200px;
+     background-position:  -10410px -890px;
+}
+ .bg-WV {
+    width: 500px; height: 200px;
+     background-position:  -10410px -1110px;
+}
+ .bg-WW {
+    width: 500px; height: 200px;
+     background-position:  -10410px -1330px;
+}
+ .bg-WX {
+    width: 500px; height: 200px;
+     background-position:  -10410px -1550px;
+}
+ .bg-WY {
+    width: 500px; height: 200px;
+     background-position:  -10410px -1770px;
+}
+ .bg-WZ {
+    width: 500px; height: 200px;
+     background-position:  -10410px -1990px;
+}
+ .bg-X3 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -2210px;
+}
+ .bg-X8 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -2430px;
+}
+ .bg-X9 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -2650px;
+}
+ .bg-XC {
+    width: 500px; height: 200px;
+     background-position:  -10410px -2870px;
+}
+ .bg-XD {
+    width: 500px; height: 200px;
+     background-position:  -10410px -3090px;
+}
+ .bg-XE {
+    width: 500px; height: 200px;
+     background-position:  -10410px -3310px;
+}
+ .bg-XF {
+    width: 500px; height: 200px;
+     background-position:  -10410px -3530px;
+}
+ .bg-XG {
+    width: 500px; height: 200px;
+     background-position:  -10410px -3750px;
+}
+ .bg-XH {
+    width: 500px; height: 200px;
+     background-position:  -10410px -3970px;
+}
+ .bg-XJ {
+    width: 500px; height: 200px;
+     background-position:  -10410px -4190px;
+}
+ .bg-XK {
+    width: 500px; height: 200px;
+     background-position:  -10410px -4410px;
+}
+ .bg-XL {
+    width: 500px; height: 200px;
+     background-position:  -10410px -4630px;
+}
+ .bg-XM {
+    width: 500px; height: 200px;
+     background-position:  -10410px -4850px;
+}
+ .bg-XN {
+    width: 500px; height: 200px;
+     background-position:  -10410px -5070px;
+}
+ .bg-XO {
+    width: 500px; height: 200px;
+     background-position:  -10410px -5290px;
+}
+ .bg-XP {
+    width: 500px; height: 200px;
+     background-position:  -10410px -5510px;
+}
+ .bg-XQ {
+    width: 500px; height: 200px;
+     background-position:  -10410px -5730px;
+}
+ .bg-XR {
+    width: 500px; height: 200px;
+     background-position:  -10410px -5950px;
+}
+ .bg-XT {
+    width: 500px; height: 200px;
+     background-position:  -10410px -6170px;
+}
+ .bg-XU {
+    width: 500px; height: 200px;
+     background-position:  -10410px -6390px;
+}
+ .bg-XV {
+    width: 500px; height: 200px;
+     background-position:  -10410px -6610px;
+}
+ .bg-XW {
+    width: 500px; height: 200px;
+     background-position:  -10410px -6830px;
+}
+ .bg-XY {
+    width: 500px; height: 200px;
+     background-position:  -10410px -7050px;
+}
+ .bg-XZ {
+    width: 500px; height: 200px;
+     background-position:  -10410px -7270px;
+}
+ .bg-Y0 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -7490px;
+}
+ .bg-Y2 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -7710px;
+}
+ .bg-Y4 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -7930px;
+}
+ .bg-Y5 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -8150px;
+}
+ .bg-Y6 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -8370px;
+}
+ .bg-Y7 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -8590px;
+}
+ .bg-Y8 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -8810px;
+}
+ .bg-Y9 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -9030px;
+}
+ .bg-YB {
+    width: 500px; height: 200px;
+     background-position:  -10410px -9250px;
+}
+ .bg-YC {
+    width: 500px; height: 200px;
+     background-position:  -10410px -9470px;
+}
+ .bg-YD {
+    width: 500px; height: 200px;
+     background-position:  -10410px -9690px;
+}
+ .bg-YE {
+    width: 500px; height: 200px;
+     background-position:  -10410px -9910px;
+}
+ .bg-YG {
+    width: 500px; height: 200px;
+     background-position:  -10410px -10130px;
+}
+ .bg-YH {
+    width: 500px; height: 200px;
+     background-position:  -10px -10350px;
+}
+ .bg-YI {
+    width: 500px; height: 200px;
+     background-position:  -530px -10350px;
+}
+ .bg-YK {
+    width: 500px; height: 200px;
+     background-position:  -1050px -10350px;
+}
+ .bg-YL {
+    width: 500px; height: 200px;
+     background-position:  -1570px -10350px;
+}
+ .bg-YM {
+    width: 500px; height: 200px;
+     background-position:  -2090px -10350px;
+}
+ .bg-YN {
+    width: 500px; height: 200px;
+     background-position:  -2610px -10350px;
+}
+ .bg-YO {
+    width: 500px; height: 200px;
+     background-position:  -3130px -10350px;
+}
+ .bg-YP {
+    width: 500px; height: 200px;
+     background-position:  -3650px -10350px;
+}
+ .bg-YQ {
+    width: 500px; height: 200px;
+     background-position:  -4170px -10350px;
+}
+ .bg-YR {
+    width: 500px; height: 200px;
+     background-position:  -4690px -10350px;
+}
+ .bg-YS {
+    width: 500px; height: 200px;
+     background-position:  -5210px -10350px;
+}
+ .bg-YT {
+    width: 500px; height: 200px;
+     background-position:  -5730px -10350px;
+}
+ .bg-YU {
+    width: 500px; height: 200px;
+     background-position:  -6250px -10350px;
+}
+ .bg-YV {
+    width: 500px; height: 200px;
+     background-position:  -6770px -10350px;
+}
+ .bg-YW {
+    width: 500px; height: 200px;
+     background-position:  -7290px -10350px;
+}
+ .bg-YX {
+    width: 500px; height: 200px;
+     background-position:  -7810px -10350px;
+}
+ .bg-YZ {
+    width: 500px; height: 200px;
+     background-position:  -8330px -10350px;
+}
+ .bg-Z2 {
+    width: 500px; height: 200px;
+     background-position:  -8850px -10350px;
+}
+ .bg-Z3 {
+    width: 500px; height: 200px;
+     background-position:  -9370px -10350px;
+}
+ .bg-Z4 {
+    width: 500px; height: 200px;
+     background-position:  -9890px -10350px;
+}
+ .bg-Z5 {
+    width: 500px; height: 200px;
+     background-position:  -10410px -10350px;
+}
+ .bg-Z6 {
+    width: 500px; height: 200px;
+     background-position:  -10px -10570px;
+}
+ .bg-Z7 {
+    width: 500px; height: 200px;
+     background-position:  -530px -10570px;
+}
+ .bg-Z8 {
+    width: 500px; height: 200px;
+     background-position:  -1050px -10570px;
+}
+ .bg-Z9 {
+    width: 500px; height: 200px;
+     background-position:  -1570px -10570px;
+}
+ .bg-ZA {
+    width: 500px; height: 200px;
+     background-position:  -2090px -10570px;
+}
+ .bg-ZB {
+    width: 500px; height: 200px;
+     background-position:  -2610px -10570px;
+}
+ .bg-ZC {
+    width: 500px; height: 200px;
+     background-position:  -3130px -10570px;
+}
+ .bg-ZD {
+    width: 500px; height: 200px;
+     background-position:  -3650px -10570px;
+}
+ .bg-ZE {
+    width: 500px; height: 200px;
+     background-position:  -4170px -10570px;
+}
+ .bg-ZF {
+    width: 500px; height: 200px;
+     background-position:  -4690px -10570px;
+}
+ .bg-ZG {
+    width: 500px; height: 200px;
+     background-position:  -5210px -10570px;
+}
+ .bg-ZH {
+    width: 500px; height: 200px;
+     background-position:  -5730px -10570px;
+}
+ .bg-ZI {
+    width: 500px; height: 200px;
+     background-position:  -6250px -10570px;
+}
+ .bg-ZJ {
+    width: 500px; height: 200px;
+     background-position:  -6770px -10570px;
+}
+ .bg-ZK {
+    width: 500px; height: 200px;
+     background-position:  -7290px -10570px;
+}
+ .bg-ZL {
+    width: 500px; height: 200px;
+     background-position:  -7810px -10570px;
+}
+ .bg-ZM {
+    width: 500px; height: 200px;
+     background-position:  -8330px -10570px;
+}
+ .bg-ZN {
+    width: 500px; height: 200px;
+     background-position:  -8850px -10570px;
+}
+ .bg-ZP {
+    width: 500px; height: 200px;
+     background-position:  -9370px -10570px;
+}
+ .bg-ZQ {
+    width: 500px; height: 200px;
+     background-position:  -9890px -10570px;
+}
+ .bg-ZR {
+    width: 500px; height: 200px;
+     background-position:  -10410px -10570px;
+}
+ .bg-ZS {
+    width: 500px; height: 200px;
+     background-position:  -10930px -10px;
+}
+ .bg-ZT {
+    width: 500px; height: 200px;
+     background-position:  -10930px -230px;
+}
+ .bg-ZU {
+    width: 500px; height: 200px;
+     background-position:  -10930px -450px;
+}
+ .bg-ZV {
+    width: 500px; height: 200px;
+     background-position:  -10930px -670px;
+}
+ .bg-ZW {
+    width: 500px; height: 200px;
+     background-position:  -10930px -890px;
+}
+ .bg-ZX {
+    width: 500px; height: 200px;
+     background-position:  -10930px -1110px;
+}
+ .bg-ZY {
+    width: 500px; height: 200px;
+     background-position:  -10930px -1330px;
+}
+ .bg-ZZ {
+    width: 500px; height: 200px;
+     background-position:  -10930px -1550px;
+}
+/* .image-cover_airline {
+    transform: scale(.2) !important;
+    margin-left: -100% !important;
+} */

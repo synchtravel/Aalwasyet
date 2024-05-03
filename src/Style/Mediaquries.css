@@ -1,0 +1,385 @@
+@media (min-width: 996px) and (max-width:1200px){
+  .image-cover_airline{
+    margin-left: -352% !important;
+  }
+  .image-cover_airline2{
+    transform: scale(0.25) !important;
+    margin-left: -195% !important;
+  }
+}
+@media (min-width: 768px) and (max-width:1202px){
+   /*****************************************
+               Packages
+*****************************************/
+.package-filter button img{
+   width: 40px;
+   height: 40px;
+}
+.package-filter button span{
+   font-size:14px
+}
+
+
+}
+@media (min-width:1402px) and (max-width:1602px){
+    .image-cover_airline {
+      margin-left: -202% !important;
+  }
+  .flight-transfer-ad {
+ 
+    height: 12.5em;
+  }
+}
+@media (min-width:1602px) and (max-width:1702px){
+  .image-cover_airline {
+    margin-left: -160% !important;
+}
+.flight-transfer-ad {
+ 
+  height: 12.5em;
+}
+
+}
+@media (min-width: 768px) and (max-width:1402px){
+  .card-text{
+     font-size: 14.5px;
+   }
+}
+@media (min-width: 768px) and (max-width:996px){
+  .flight-detail-text {
+     font-size: 1.3rem;
+ }
+ .phone-only {
+  font-size: 1.1rem;
+}
+ .image-cover_airline2{
+  transform: scale(0.35) !important;
+  margin-left: -81% !important;
+}
+}
+@media (max-width:992px){
+  .tab-btn-right {
+    float: none;
+   
+  }
+  .image-cover_airline{
+    margin-left: -412% !important;
+  }
+  #navbar{
+    justify-content: space-around; 
+  }
+  .navbar-link .nav-item .nav-link{
+    color: #020202;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .navbar-toggler{
+    background: #005b1e;
+  }
+  .booking_part {
+     position: unset;
+     padding: 0 15px;
+
+   }
+   .block-32 {
+     /* background: #cfcfcf73; */
+   border-radius: unset;
+  }
+  .contact-img .filter-1 {
+     position: unset;
+     top: unset;
+     left:unset;
+     padding: .4em;
+     border-radius: 5px;
+     padding-right: .6em;
+     padding-left: .6em;
+     color: rgb(54, 61, 72);
+     transform: none; 
+  }
+  .v-section-info {
+     padding: unset; 
+ }
+}
+@media (max-width:768px){
+  .fl-flight-container {
+     flex-flow: wrap;
+ }
+ .datepicker-container {
+  width: 100%;
+}
+.phone-only {
+  font-size: 1rem;
+  min-width: 36em;
+}
+.image-cover_airline{
+  margin-left: 0% !important;
+  transform: scale(0.25) !important;
+}
+.image-cover_airline2{
+  transform: scale(0.35) !important;
+  margin-left: -101% !important;
+}
+/* .submenu-toggle{
+  display: block;
+} */
+
+.bookpacakge-bottom{
+  text-align: center !important;
+  margin-top: .5em;
+}
+.search-btn1{
+  width: 100%;
+}
+  .fl-flight-container:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  left: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right,#00000014,#fff);
+  z-index: 1;
+}
+.invoice-heading{
+  margin-top: 1em;
+}
+/* .hotel-detail-padding{
+  padding-top: 22.5em;
+} */
+ .fl-flight-container .flight-name {
+  color: #fff;
+  position: revert;
+  font-size: 16px;
+  justify-content: center;
+  font-weight: 600;
+  text-align: center;
+  background-color: #d0a233;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius:unset;
+
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+.fl-flight-container:after {
+  content: '';
+  position: absolute;
+  bottom: 41%;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right,#fff,#00000014);
+  z-index: 1;
+}
+.fl-flight-container .flight-name span {
+  font-size: 18px;
+  font-weight: bold;
+  transform: none;
+  width: fit-content;
+}
+.fl-detail-left {
+  margin-left: 0;
+}
+.fl-detail-left {
+  width: 100%;
+}
+.fl-detail-left .fl-detail-left-container {
+  /* border-bottom: 1px solid #e4e4e4; */
+  border-right: 0;
+}
+.view-detail-navbar{
+  display: none;
+}
+.item-time {
+  display: block;
+  width: 100%;
+  
+}
+.item-time fa {
+  display: block;
+}
+.section-title h2{
+  font-size: 20px;
+}
+.package-filter button {
+  font-size: 14px;
+}
+.package-filter{
+  padding: 3px;
+}
+}
+@media (max-width: 568px){
+  #mybutton {
+    display: block;
+  }
+  .cart-btn{
+    display: none;
+  }
+  .phone-only {
+    display: none;
+}
+.view-detail-title{
+  font-size: 20px !important;
+}
+  .package-total{
+    text-align: center;
+  }
+  .theiaStickySidebar{
+    margin-top: unset;
+  }
+  .btn-flip-icon {
+    position: absolute !important;
+    left: 50% !important;
+    top: 100% !important;
+    transform: translate(-50%, -50%) !important;
+    margin-top: 0.5rem !important;
+}
+}
+@media (max-width: 480px){
+  /*****************************************
+              Navbar
+*****************************************/
+h3 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.baggage-info{
+  display: block;
+}
+.right-sidebar{
+  width: 100%;
+  right: -100%;
+}
+.package-filter button img{
+  display: none;
+}
+.mobile-Filter-info{
+  display: block;
+}
+.hide-page_filter{
+  display: none;
+}
+.mob-full{
+  width: 100%;
+}
+.img-caption h5{
+  font-size: 1.4em !important;
+}
+#loading-text {
+  top: 38%;
+  left: 26%;
+  width: 14em;
+}
+.booking-option-wrapper .booking-option-details .booking-mobile {
+  font-size: 18px;
+
+}
+.booking-option-wrapper .booking-option-details .booking-option-title {
+  font-size: 18px;
+}
+.btn-flip-icon{
+  display:none !important;
+}
+.new-search-pdetail-btn{
+  min-height: 45px !important;
+}
+.booking_part {
+  padding: 0px 0px !important;
+}
+.new-search-pdetail-select{
+  min-height: 45px !important;
+}
+
+.flight-modify-responsive h6,h5{
+font-size: 13px !important;
+}
+.flight-new-search {
+  font-size: .9em !important;
+  padding: .8em !important;
+  
+}
+.new-search-pdetail-select {
+width: 100% !important;
+}
+.image-cover_airline2{
+  transform: scale(0.25) !important;
+    margin-left: -25% !important;
+}
+.footer-top{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.package-filter button span{
+  margin:0;
+}
+.navbar-top-right{
+  justify-content: space-between;
+}
+.navbar-img{
+  text-align: center;
+}
+.flight-checkout-logo{
+  margin-left: unset;
+}
+.image-cover_airline{
+  margin-left: -32% !important;
+  transform: scale(0.25) !important;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+ display: none;
+}
+
+.hotel-top .col-md-6 {
+ text-align: center;
+}
+.hotel-top .col-md-6 .awe-select-wrapper{
+ float: unset;
+}
+.flight-filter12{
+  margin-top: .6em !important;
+}
+.contact-img h1{
+ font-size: 1.3em;
+} 
+.page-top{
+ margin-top: 1em;
+}
+.set-detail-img {
+  height: auto !important; 
+}
+.room-heading{
+ display: none;
+}
+
+.theiaStickySidebar ,.book-now{
+ margin-top: 0;
+}
+.margin-checkout{
+ margin-top: 1em;
+}
+.title-vochure p{
+font-size: 1.4 !important;
+}
+.title-vochure {
+ text-align: center !important;
+ }
+ .booking_part .booking_menu .nav-tabs .nav-item .nav-link{
+  padding: 11px 7px;
+  font-size: 13px;
+  text-transform: capitalize;
+ }
+ .featuresBox-wrap{
+  text-align: center !important;
+ }
+ .tab-btn-right .btn{
+  font-size: 13px;
+ }
+}
